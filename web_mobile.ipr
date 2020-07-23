@@ -13,6 +13,7 @@
             <element id="library" level="project" name="lib" />
             <element id="library" level="project" name="uploadfile" />
             <element id="library" level="project" name="lib1" />
+            <element id="library" level="project" name="lib2" />
           </element>
         </element>
       </root>
@@ -28,6 +29,7 @@
           <element id="directory" name="classes" />
           <element id="directory" name="lib">
             <element id="library" level="project" name="lib1" />
+            <element id="library" level="project" name="lib2" />
           </element>
         </element>
       </root>
@@ -176,7 +178,7 @@
       <module fileurl="file://$PROJECT_DIR$/web_mobile.iml" filepath="$PROJECT_DIR$/web_mobile.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SqlDialectMappings">
@@ -203,6 +205,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+      <schema-mapping />
     </data-source>
   </component>
   <component name="libraryTable">
@@ -217,12 +220,17 @@
       <SOURCES />
     </library>
     <library name="lib1">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="lib2">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../apache-tomcat-8.5.55/lib" />
+        <root url="file://D:/appweb/apache-tomcat-8.5.47/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../apache-tomcat-8.5.55/lib" recursive="false" />
+      <jarDirectory url="file://D:/appweb/apache-tomcat-8.5.47/lib" recursive="false" />
     </library>
     <library name="uploadfile">
       <CLASSES>
