@@ -198,8 +198,8 @@
                                         <h3>categories</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">SAMSUNG</a></li>
                                         <li><a href="#">APPLE</a></li>
+                                        <li><a href="#">SAMSUNG</a></li>
                                         <li><a href="#">DELL</a></li>
                                         <li><a href="#">XIAOMI</a></li>
                                         <li><a href="#">LENOVO</a></li>

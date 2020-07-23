@@ -29,7 +29,7 @@
                 </div>
                 <div class="float-md-right">
                     <ul class="account_list">
-                        <li><a href="#">My Account</a></li>
+                        <li><a href="login.jsp">My Account</a></li>
                         <li><a href="#">Wish List (0)</a></li>
                         <li><a href="#">Shopping Cart</a></li>
                         <li><a href="#">Checkout</a></li>
@@ -70,7 +70,7 @@
                                 <li class="nav-item"><a class="nav-link" href="checkout.html">ASUS</a></li>
                                 <li class="nav-item"><a class="nav-link" href="register.html">LENOVO</a></li>
                                 <li class="nav-item"><a class="nav-link" href="track.html"></a></li>
-                                <li class="nav-item"><a class="nav-link" href="login.html">APPLE</a></li>
+                                <li class="nav-item"><a class="nav-link" href="login.jsp">APPLE</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown submenu">
@@ -83,7 +83,7 @@
                     </ul>
                     <ul class="navbar-nav justify-content-end">
                         <li class="search_icon"><a href="#"><i class="icon-magnifier icons"></i></a></li>
-                        <li class="user_icon"><a href="#"><i class="icon-user icons"></i></a></li>
+                        <li class="user_icon"><a href="login.jsp"><i class="icon-user icons"></i></a></li>
                         <li class="cart_cart"><a href="#"><i class="icon-handbag icons"></i></a></li>
                     </ul>
                 </div>

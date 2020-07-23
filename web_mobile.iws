@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="" />
+    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_mobile.iws" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iws" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,17 +137,8 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Intellij\web_mobile\web" />
-      <recent name="D:\Intellij\web_mobile\web\img\snow" />
-      <recent name="D:\Intellij\web_mobile\web\admin\include" />
-      <recent name="D:\Intellij\web_mobile\web\view_admin" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="vn.edu.nlu.fit.controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="vn.edu.nlu.fit.controller.admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellij\web_mobile\web\img\logo" />
@@ -148,6 +146,16 @@
       <recent name="D:\Intellij\web_mobile\web" />
       <recent name="D:\Intellij\web_mobile\web\js" />
       <recent name="D:\Intellij\web_mobile\web\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.edu.nlu.fit.controller.admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CNPM\Code\CNPM2020_N7_C3\web" />
+      <recent name="D:\Intellij\web_mobile\web" />
+      <recent name="D:\Intellij\web_mobile\web\img\snow" />
+      <recent name="D:\Intellij\web_mobile\web\admin\include" />
+      <recent name="D:\Intellij\web_mobile\web\view_admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -162,7 +170,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/web_mobile/login.jsp">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web_mobile/home" />
       <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
@@ -333,6 +344,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.login.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -428,7 +444,8 @@
       <workItem from="1595050420029" duration="1215000" />
       <workItem from="1595051698401" duration="1927000" />
       <workItem from="1595475682848" duration="597000" />
-      <workItem from="1595476368013" duration="792000" />
+      <workItem from="1595476368013" duration="956000" />
+      <workItem from="1595510976819" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="aaaaa">
       <created>1595476414872</created>
