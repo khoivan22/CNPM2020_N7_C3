@@ -1,6 +1,7 @@
 package vn.edu.nlu.fit.controller;
 
-import vn.edu.nlu.fit.db.DBConect;
+
+import vn.edu.nlu.fit.model.Database;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,7 +24,7 @@ public class home extends HttpServlet {
                     " FROM product,items,supplier\n" +
                     " WHERE product.ACTIVE=1 AND product.ID_ITEMS=items.ID_ITEMS AND product.ID_SUPPLIER=supplier.ID_SUPPLIER " +
                     " AND product.ACTIVE=1 AND items.ACTIVE=1 AND supplier.ACTIVE=1 ORDER BY RAND ();";
-            PreparedStatement statement = DBConect.getPreparedStatement(product);
+            PreparedStatement statement = Database.getPreparedStatement(product);
             ResultSet resultSet = statement.executeQuery();
             request.setAttribute("resultSet", resultSet);
             request.getRequestDispatcher("home.jsp").forward(request, response);

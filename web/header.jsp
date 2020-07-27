@@ -1,4 +1,4 @@
-<%@ page import="vn.edu.nlu.fit.util.Util" %><%--
+<%@ page import="vn.edu.nlu.fit.model.Util" %><%--
   Created by IntelliJ IDEA.
   User: vkhoi
   Date: 7/18/2020

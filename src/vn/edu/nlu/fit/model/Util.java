@@ -1,4 +1,4 @@
-package vn.edu.nlu.fit.util;
+package vn.edu.nlu.fit.model;
 
 
 import java.math.BigDecimal;
