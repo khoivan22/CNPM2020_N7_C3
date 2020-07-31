@@ -38,12 +38,10 @@ public class add extends HttpServlet {
             UserFacebook uf= (UserFacebook) session.getAttribute("UserFacebook");
             //neu listcart null thi tao moi
             if (listCArt == null) {
-                System.out.println("a");
                 listCArt = new ListCart();
                 listCArt.list_cart.add(item);
             }
             else if (listCArt != null&&!listCArt.list_cart.isEmpty()) {
-                System.out.println("b");
                 int check = 0;
                 for (Cart product : listCArt.list_cart) {
                     check++;
