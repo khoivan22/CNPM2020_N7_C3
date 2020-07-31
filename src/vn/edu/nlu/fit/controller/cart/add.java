@@ -3,6 +3,8 @@ package vn.edu.nlu.fit.controller.cart;
 import vn.edu.nlu.fit.model.*;
 import vn.edu.nlu.fit.model.cart.Cart;
 import vn.edu.nlu.fit.model.cart.ListCart;
+import vn.edu.nlu.fit.model.user.User;
+import vn.edu.nlu.fit.model.user.UserFacebook;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -33,9 +35,12 @@ public class add extends HttpServlet {
             ListCart listCArt = (ListCart) session.getAttribute("list_cart");
             //lay user t session
             User u = (User) session.getAttribute("user");
+            UserFacebook uf= (UserFacebook) session.getAttribute("UserFacebook");
             //neu listcart null thi tao moi
-            if (listCArt == null)
+            if (listCArt == null) {
                 listCArt = new ListCart();
+                listCArt.list_cart.add(item);
+            }
             if (!listCArt.list_cart.isEmpty()) {
                 int check = 0;
                 for (Cart product : listCArt.list_cart) {
@@ -45,19 +50,20 @@ public class add extends HttpServlet {
                         if (u != null) {
                             Database.setSLC(id_product, u.getUser_name(), product.getTotal());
                         }
-                        break;
-                    }
-                    if (check == listCArt.list_cart.size()) {
-                        listCArt.list_cart.add(item);
-                        if (u != null) {
-                            Database.addCart(item, u.getUser_name());
+                       if(uf!=null){
+                            Database.setSLC(id_product, uf.getId(), product.getTotal());
                         }
                         break;
                     }
-                }
-            } else {
-                if (item != null) {
+        }
+                if (check == listCArt.list_cart.size()) {
                     listCArt.list_cart.add(item);
+                    if (u != null) {
+                        Database.addCart(item, u.getUser_name());
+                    }
+                    if(uf!=null){
+                        Database.addCart(item, uf.getId());
+                    }
                 }
             }
             session.setAttribute("list_cart", listCArt);

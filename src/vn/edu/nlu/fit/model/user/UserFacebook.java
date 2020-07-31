@@ -1,4 +1,4 @@
-package vn.edu.nlu.fit.model;
+package vn.edu.nlu.fit.model.user;
 
 public class UserFacebook {
     private String user_name, id;

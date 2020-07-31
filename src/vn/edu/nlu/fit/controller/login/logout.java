@@ -1,7 +1,8 @@
-package vn.edu.nlu.fit.controller;
+package vn.edu.nlu.fit.controller.login;
 
-import vn.edu.nlu.fit.model.User;
-import vn.edu.nlu.fit.model.UserFacebook;
+import vn.edu.nlu.fit.model.cart.ListCart;
+import vn.edu.nlu.fit.model.user.User;
+import vn.edu.nlu.fit.model.user.UserFacebook;
 import vn.edu.nlu.fit.model.Util;
 
 import javax.servlet.ServletException;
@@ -20,9 +21,11 @@ public class logout extends HttpServlet {
         response.setContentType("text/plain");
         User u = null;
         UserFacebook uf = null;
+        ListCart listCart=null;
         HttpSession session = request.getSession();
         session.setAttribute("user", u);
         session.setAttribute("UserFacebook", uf);
+        session.setAttribute("list_cart",listCart);
         response.sendRedirect(Util.fullPath("home"));
     }
 

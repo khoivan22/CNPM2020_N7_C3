@@ -1,7 +1,7 @@
 package vn.edu.nlu.fit.controller.comment;
 
 import vn.edu.nlu.fit.model.Database;
-import vn.edu.nlu.fit.model.User;
+import vn.edu.nlu.fit.model.user.User;
 import vn.edu.nlu.fit.model.Util;
 
 import javax.servlet.ServletException;

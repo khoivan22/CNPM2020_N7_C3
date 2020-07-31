@@ -1,10 +1,9 @@
 package vn.edu.nlu.fit.controller.cart;
 
 import vn.edu.nlu.fit.model.Database;
-import vn.edu.nlu.fit.model.User;
-import vn.edu.nlu.fit.model.Util;
-import vn.edu.nlu.fit.model.cart.Cart;
+import vn.edu.nlu.fit.model.user.User;
 import vn.edu.nlu.fit.model.cart.ListCart;
+import vn.edu.nlu.fit.model.user.UserFacebook;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -24,6 +23,7 @@ public class delete extends HttpServlet {
         HttpSession session = request.getSession();
         //lay user tu session
         User u = (User) session.getAttribute("user");
+        UserFacebook uf= (UserFacebook) session.getAttribute("UserFacebook");
 
         //lay parameter tu  trang cart.jsp
         String id_product = request.getParameter("id_del");
@@ -35,6 +35,8 @@ public class delete extends HttpServlet {
         //neu da dang nhap thi xoa cart trong database
         if (u != null) {
             Database.delCart(id_product, u.getUser_name());
+        }else if(uf!=null){
+            Database.delCart(id_product, uf.getId());
         }
 //        session.setAttribute("list_cart", listCart);
         //ve lai trang show_cart

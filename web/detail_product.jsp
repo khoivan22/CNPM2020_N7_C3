@@ -1,4 +1,5 @@
 <%@ page import="java.sql.ResultSet" %>
+<%@ page import="vn.edu.nlu.fit.model.user.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 <html lang="en">

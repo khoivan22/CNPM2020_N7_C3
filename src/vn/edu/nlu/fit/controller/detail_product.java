@@ -12,7 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import vn.edu.nlu.fit.model.User;
+import vn.edu.nlu.fit.model.user.User;
 
 
 import javax.servlet.http.HttpSession;

@@ -1,6 +1,6 @@
 <%@ page import="vn.edu.nlu.fit.model.Util" %>
-<%@ page import="vn.edu.nlu.fit.model.User" %>
-<%@ page import="vn.edu.nlu.fit.model.UserFacebook" %><%--
+<%@ page import="vn.edu.nlu.fit.model.user.User" %>
+<%@ page import="vn.edu.nlu.fit.model.user.UserFacebook" %><%--
   Created by IntelliJ IDEA.
   User: vkhoi
   Date: 7/18/2020

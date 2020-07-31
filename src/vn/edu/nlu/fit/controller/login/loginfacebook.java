@@ -1,6 +1,9 @@
-package vn.edu.nlu.fit.controller;
+package vn.edu.nlu.fit.controller.login;
 
- import vn.edu.nlu.fit.model.UserFacebook;
+ import vn.edu.nlu.fit.model.Database;
+ import vn.edu.nlu.fit.model.cart.Cart;
+ import vn.edu.nlu.fit.model.cart.ListCart;
+ import vn.edu.nlu.fit.model.user.UserFacebook;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,6 +25,21 @@ public class loginfacebook extends HttpServlet {
         String id = request.getParameter("id");
         HttpSession ss = request.getSession();
         UserFacebook uf = new UserFacebook(name, id);
+        ListCart listCart = (ListCart) ss.getAttribute("list_cart");
+        if (listCart != null) {
+            for (Cart c : listCart.list_cart) {
+                if (Database.getCart(uf.getId(), c.getPro().getId_product()) == null) {
+                    Database.addCart(c, id);
+                } else {
+                    int sl = c.getTotal() + Database.getCart(uf.getId(), c.getPro().getId_product()).getTotal();
+                    Database.setSLC(c.getPro().getId_product(), uf.getId(), sl);
+                }
+            }
+            listCart.list_cart.clear();
+        }
+        if (listCart == null) listCart = new ListCart();
+        listCart.list_cart.addAll(Database.getListcart(uf.getId()).list_cart);
+        ss.setAttribute("list_cart", listCart);
         ss.setAttribute("UserFacebook", uf);
         response.sendRedirect("home");
     }

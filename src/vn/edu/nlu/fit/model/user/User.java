@@ -1,4 +1,4 @@
-package vn.edu.nlu.fit.model;
+package vn.edu.nlu.fit.model.user;
 
 public class User {
     private String user_name, password, full_name, email, phone, privileges, code;

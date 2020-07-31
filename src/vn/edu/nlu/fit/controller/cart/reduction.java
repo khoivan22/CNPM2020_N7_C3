@@ -1,10 +1,11 @@
 package vn.edu.nlu.fit.controller.cart;
 
 import vn.edu.nlu.fit.model.Database;
-import vn.edu.nlu.fit.model.User;
+import vn.edu.nlu.fit.model.user.User;
 import vn.edu.nlu.fit.model.Util;
 import vn.edu.nlu.fit.model.cart.Cart;
 import vn.edu.nlu.fit.model.cart.ListCart;
+import vn.edu.nlu.fit.model.user.UserFacebook;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,6 +28,7 @@ public class reduction extends HttpServlet {
         HttpSession session = request.getSession();
         //lay user tu session
         User u = (User) session.getAttribute("user");
+        UserFacebook uf= (UserFacebook) session.getAttribute("UserFacebook");
         //lay listCart tu session
         ListCart listCart = (ListCart) session.getAttribute("list_cart");
         //giam so luong cua cart co id==id_product len 1
@@ -36,6 +38,8 @@ public class reduction extends HttpServlet {
                 //neu da dang nhap thi xoa cart trong database
                 if (u != null) {
                     Database.setSLC(id_product, u.getUser_name(), item.getTotal());
+                }else if(uf!=null){
+                    Database.setSLC(id_product, uf.getId(), item.getTotal());
                 }
                 break;
             }

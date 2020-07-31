@@ -2,10 +2,9 @@ package vn.edu.nlu.fit.model;
 
 import vn.edu.nlu.fit.model.cart.Cart;
 import vn.edu.nlu.fit.model.cart.ListCart;
+import vn.edu.nlu.fit.model.user.User;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Database {
     private static Connection con;
@@ -76,15 +75,34 @@ public class Database {
             check = true;
         return check;
     }
+public static  Cart getCart(String user_name, String id_product){
+    Cart c =null;
+    String query = "SELECT * FROM `cart` WHERE `ID_product` = ? AND `USER_NAME`=? ;";
 
-    public static ListCart getListcart() {
-        System.out.println("jgkdfhgdddddddddddddddddddddddddddddddddddddddddddd");
+    PreparedStatement preparedStatement = null;
+    try {
+        preparedStatement = Database.getPreparedStatement(query);
+        preparedStatement.setString(1, id_product);
+        preparedStatement.setString(2, user_name);
+       ResultSet resultSet= preparedStatement.executeQuery();
+        resultSet.beforeFirst();
+       resultSet.next();
+          c= new Cart(getProduct(resultSet.getString(2)), resultSet.getInt(3));
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    return c;
+}
+    public static ListCart getListcart(String user_name) {
         ListCart l = new ListCart();
-        String query = "SELECT * FROM `cart`";
+        String query = "SELECT * FROM `cart` WHERE `USER_NAME`=? ;";
 
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = getPreparedStatement(query);
+            preparedStatement.setString(1, user_name);
             ResultSet resultSet = preparedStatement.executeQuery();
             resultSet.beforeFirst();
             while (resultSet.next()) {
