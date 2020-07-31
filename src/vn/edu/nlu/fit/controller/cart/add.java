@@ -38,16 +38,19 @@ public class add extends HttpServlet {
             UserFacebook uf= (UserFacebook) session.getAttribute("UserFacebook");
             //neu listcart null thi tao moi
             if (listCArt == null) {
+                System.out.println("a");
                 listCArt = new ListCart();
                 listCArt.list_cart.add(item);
             }
-            if (!listCArt.list_cart.isEmpty()) {
+            else if (listCArt != null&&!listCArt.list_cart.isEmpty()) {
+                System.out.println("b");
                 int check = 0;
                 for (Cart product : listCArt.list_cart) {
                     check++;
                     if (product.getPro().getId_product().equals(id_product)) {
                         product.setTotal(product.getTotal() + 1);
                         if (u != null) {
+
                             Database.setSLC(id_product, u.getUser_name(), product.getTotal());
                         }
                        if(uf!=null){
@@ -57,6 +60,7 @@ public class add extends HttpServlet {
                     }
         }
                 if (check == listCArt.list_cart.size()) {
+                    System.out.println("");
                     listCArt.list_cart.add(item);
                     if (u != null) {
                         Database.addCart(item, u.getUser_name());
@@ -64,7 +68,12 @@ public class add extends HttpServlet {
                     if(uf!=null){
                         Database.addCart(item, uf.getId());
                     }
+                }else{
+                    listCArt.list_cart.add(item);
                 }
+
+            }else if(listCArt.list_cart.isEmpty()){
+                listCArt.list_cart.add(item);
             }
             session.setAttribute("list_cart", listCArt);
             if(btn_buy_now!=null)

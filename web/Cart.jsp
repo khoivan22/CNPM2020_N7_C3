@@ -82,7 +82,7 @@
                                                 </div>
                                             </td>
                                             <td><p class="red"><%=Util.convertPrice(item.getPro().getPrice()-item.getPro().getDiscout())%></p></td>
-                                            <td>
+                                            <td style="width: 100px">
                                                 <div class="quantity">
 
                                                     <div class="custom" >
