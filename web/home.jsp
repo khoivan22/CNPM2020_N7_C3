@@ -145,9 +145,11 @@
                                 %>
                                 <div class="item woman shoes">
                                     <%
-                                        for (int k = 0; k < 2; k++) {
+                                        int count=0;
+                                        while (count<2){
                                             rs.next();
-
+                                            if ( rs.getString(5).equalsIgnoreCase("DT")) {
+                                                count++;
                                     %>
                                     <div class="l_product_item">
                                         <div class="l_p_img">
@@ -177,7 +179,7 @@
                                     </div>
                                     <%
 
-
+                                            }
                                         }
                                     %>
 
@@ -198,7 +200,7 @@
                                         <img class="img-fluid"
                                              src="<%=Util.fullPath("img/blog/from-blog/f-blog-4.jpg")%>" alt="">
                                         <div class="f_blog_text">
-                                            <h5>fashion</h5>
+                                            <h5>Phone</h5>
                                             <p>Neque porro quisquam est qui dolorem ipsum</p>
                                             <h6>21.09.2017</h6>
                                         </div>
@@ -209,7 +211,7 @@
                                         <img class="img-fluid"
                                              src="<%=Util.fullPath("img/blog/from-blog/f-blog-5.jpg")%>" alt="">
                                         <div class="f_blog_text">
-                                            <h5>fashion</h5>
+                                            <h5>Phone</h5>
                                             <p>Neque porro quisquam est qui dolorem ipsum</p>
                                             <h6>21.09.2017</h6>
                                         </div>
@@ -220,7 +222,7 @@
                                         <img class="img-fluid"
                                              src="<%=Util.fullPath("img/blog/from-blog/f-blog-6.jpg")%>" alt="">
                                         <div class="f_blog_text">
-                                            <h5>fashion</h5>
+                                            <h5>Phone</h5>
                                             <p>Neque porro quisquam est qui dolorem ipsum</p>
                                             <h6>21.09.2017</h6>
                                         </div>
@@ -267,11 +269,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-1.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Oxford Shirt</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -279,11 +281,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-2.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Puffer Jacket</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -291,11 +293,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-3.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Leather Bag</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -303,11 +305,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-4.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Casual Shoes</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -315,11 +317,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-1.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Oxford Shirt</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -327,11 +329,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-2.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Puffer Jacket</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -339,11 +341,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-3.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Leather Bag</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>
@@ -351,11 +353,11 @@
                                     <li>
                                         <div class="media">
                                             <div class="d-flex">
-                                                <img src="<%=Util.fullPath("img/product/featured-product/f-p-4.jpg")%>"
+                                                <img style="width: 80px; height: 70px" src="<%=Util.fullPath("img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg")%>"
                                                      alt="">
                                             </div>
                                             <div class="media-body">
-                                                <h4>Casual Shoes</h4>
+                                                <h4>Iphone 6s</h4>
                                                 <h5>$45.05</h5>
                                             </div>
                                         </div>

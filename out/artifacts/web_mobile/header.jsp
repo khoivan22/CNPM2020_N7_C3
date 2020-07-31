@@ -41,7 +41,7 @@
     <div class="carousel_menu_inner">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="<%=Util.fullPath("img/logo.png")%>" alt=""></a>
+                <a class="navbar-brand" href="<%=Util.fullPath("home")%>"><img src="<%=Util.fullPath("img/logo.png")%>" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
 
@@ -83,8 +83,8 @@
                     </ul>
                     <ul class="navbar-nav justify-content-end">
                         <li class="search_icon"><a href="#"><i class="icon-magnifier icons"></i></a></li>
-                        <li class="user_icon"><a href="login.jsp"><i class="icon-user icons"></i></a></li>
-                        <li class="cart_cart"><a href="#"><i class="icon-handbag icons"></i></a></li>
+                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i class="icon-user icons"></i></a></li>
+                        <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i class="icon-handbag icons"></i></a></li>
                     </ul>
                 </div>
             </nav>

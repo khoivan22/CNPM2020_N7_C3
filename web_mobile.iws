@@ -6,75 +6,423 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="thêm sản phẩm vào giỏ hàng, show giỏ hàng">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/META-INF/web_mobile.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/show_cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/ListCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/ListCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/add_quantity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/del.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/minus_quantity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/show_cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/show_cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/home.class" afterDir="false" />
+    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/468-laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/635961665195248508_taba6-den-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/635961665337125082_taba6-den-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/635961665480175608_taba6-den-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/635961665643015944_taba6-den-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/635961665760492668_taba6-den-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636159398645952790_ip7-black-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636159398740350005_ip7-black-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636159398740506008_ip7-black-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636172339809600948_apple-Iphone-6s-gold-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636172339809912958_apple-Iphone-6s-gold-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636330306635691141_800-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636330307796977473_800-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636396217066191623_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636396217240361623_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636396217378181623_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636396217480091623_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636447215496605018_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636451322761586706_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636451322761586706_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636451322761742686_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636451322761742686_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459041871523220_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459041871523220_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459041871679213_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459060591822074_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459060731746898_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636459060877911402_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636483223586024189_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636483223586024189_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636483223586180190_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636483223586180190_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636489482634290423_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636489482634290423_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636489482634290423_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636489482634446409_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636566245732810504_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636566245911422489_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636566245911734475_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636566245911734475_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636612854975079854_Dell-Vostro-3578A-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636612854975547785_Dell-Vostro-3578A-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636612854975547785_Dell-Vostro-3578A-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636612854975703762_Dell-Vostro-3578A-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636625859225453043_N3576-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636625859225765021_N3576-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636625859225921010_N3576-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636625859225921010_N3576-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636645880859300424_Xps-13-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636645900399364543_xps-15-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636645900399364543_xps-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636645902497572582_xps-15-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636663192821960051_ipad-2018-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636663192822020051_ipad-2018-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636663192826750051_ipad-2018-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636688207026676028_macbookair-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636688207026676028_macbookair-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636688207026676028_macbookair-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636700091911829287_HASP-Dell-Ins-3567(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636700091911969287_HASP-Dell-Ins-3567(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636700091912009287_HASP-Dell-Ins-3567(5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636700091912019287_HASP-Dell-Ins-3567(4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636700091912019287_HASP-Dell-Ins-3567(6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636703736254310068_note9-xanh-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636703738270710068_note9-xanh-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636703738270710068_note9-xanh-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636703738276900068_note9-xanh-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636703738277690068_note9-xanh-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636716712468849777_macbook-pro-13-touch-bar-256gb-2018-bac-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636716712468939777_macbook-pro-13-touch-bar-256gb-2018-bac-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636716712468989777_macbook-pro-13-touch-bar-256gb-2018-bac-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636716712469319777_macbook-pro-13-touch-bar-256gb-2018-bac-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636746958719007591_A7-2018-Blue-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636746958719007591_A7-2018-Blue-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636746958719007591_A7-2018-Blue-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636746958719163577_A7-2018-Blue-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636746958721371395_A7-2018-Blue-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636748771945393060_iPhone-Xs-Max-gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636748797174925889_iphone-Xr-den.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636748797174925889_iphone-Xr-trang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636764973135496458_xiaomi-mi8-lite-den-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636767481289803972_iphone-xs-gold-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636767481293188883_iphone-xs-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636767481293463872_iphone-xs-gold-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636778883212829758_macbook-air-13-2018-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636778883213369758_macbook-air-13-2018-Gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636778883213389758_macbook-air-13-2018-Gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636800617663913232_vsmart-active1-plus-hong-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636800617664765208_vsmart-active1-plus-hong-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636800617664765208_vsmart-active1-plus-hong-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636801168764977606_vsmart-active1-plus-hong-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636803927145138282_huawei-mediapad-t510-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636803927145138282_huawei-mediapad-t510-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636803927145304271_huawei-mediapad-t510-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636803927145314271_huawei-mediapad-t510-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636809190688432141_ss-a6plus-xanh-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636809190688442141_ss-a6plus-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636809190688782141_ss-a6plus-xanh-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636809190688992141_ss-a6plus-xanh-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636809190689012141_ss-a6plus-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812413545117183_ip-xr-trang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812413545273171_ip-xr-trang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812414861121183_ip-xr-trang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812432713563751_ip-xr-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812432713563751_ip-xr-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812432713875725_ip-xr-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636812690029596126_oppo-a7-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636813355548095597_xiaomi-mi-a2-lite-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636816668645532115_Dell-N5370(3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636816668645532115_Dell-N5370(4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636816668645542115_Dell-N5370(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636816668645542115_Dell-N5370(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636824519620991210_huawei-mediapad-t3-80-vang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636824519621147207_huawei-mediapad-t3-80-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636824519621303204_huawei-mediapad-t3-80-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636824519621303204_huawei-mediapad-t3-80-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827374898205567_iPad-2018-WiFi-32gb-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827374898455542_iPad-2018-WiFi-32gb-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827374899135474_iPad-2018-WiFi-32gb-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827374899295458_iPad-2018-WiFi-32gb-vang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827396792015967_ipad-pro-11-wi-fi-xam-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827396792055963_ipad-pro-11-wi-fi-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827396792985870_ipad-pro-11-wi-fi-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827396793045864_ipad-pro-11-wi-fi-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827999345060364_ipad-pro-11-wi-fi-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827999345684256_ipad-pro-11-wi-fi-4g-xam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827999346152175_ipad-pro-11-wi-fi-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636827999346152175_ipad-pro-11-wi-fi-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828015978316900_ipad-pro-12-9-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828015978316900_ipad-pro-12-9-xam-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828015979096790_ipad-pro-12-9-xam-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828015979408746_ipad-pro-12-9-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828015979564724_ipad-pro-12-9-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828136124727006_ipad-pro-105-2017-vang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828136124887006_ipad-pro-105-2017-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828140726799186_ipad-pro-105-2017-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828140726819184_ipad-pro-105-2017-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828265774231407_ipad-pro-129-2017-vang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828265774855351_ipad-pro-129-2017-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828265775635281_ipad-pro-129-2017-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636828265775791267_ipad-pro-129-2017-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636830598772653742_ipad-pro-129-2017-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636836628987688789_ip7-plus-vang-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636836628988166719_ip7-plus-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636836628988166719_ip7-plus-vang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636836628988322696_ip7-plus-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636836628988478673_ip7-plus-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636837426628318935_huawei-mediapad-T3-7-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636837426628474898_huawei-mediapad-T3-7-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636837426628630861_huawei-mediapad-T3-7-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636856463608789792_Galaxy-M20-gray-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863636050673338_ss-galaxy-s10-plus-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863636050913338_ss-galaxy-s10-plus-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863636051023338_ss-galaxy-s10-plus-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863637628103338_ss-galaxy-s10-plus-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863643186615711_ss-galaxy-s10-trang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863643186995673_ss-galaxy-s10-trang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863643187365636_ss-galaxy-s10-trang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636863643187455627_ss-galaxy-s10-trang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636868838011728030_samsung-galaxy-a30-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636868838012148030_samsung-galaxy-a30-xanh-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636868838018978030_samsung-galaxy-a30-xanh-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636880897344041431_ss-galaxy-a50-xanh-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636880897344451431_ss-galaxy-a50-xanh-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636880897344731431_ss-galaxy-a50-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636880897346861431_ss-galaxy-a50-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636880897348111431_ss-galaxy-a50-xanh-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636881600332837065_ss-galaxy-tab-s5e-bac-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636881600335417065_ss-galaxy-tab-s5e-bac-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636881600335817065_ss-galaxy-tab-s5e-bac-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636881600336157065_ss-galaxy-tab-s5e-bac-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636887569650284152_xiaomi-redmi-note-7-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636888638313721946_xiaomi-redmi-7-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636888737679482202_oppo-f11-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636891307002642548_ss-galaxy-a20-do-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636898814185663837_dell-inspiron-n3476-00508605-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636900747852548410_ss-tab-a-plus-8-xam-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636900747853128410_ss-tab-a-plus-8-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636900747857018410_ss-tab-a-plus-8-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636900747857038410_ss-tab-a-plus-8-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906565297622951_oppo-f11-pro-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906798509320738_ipad-air-3-gold-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906798511020738_ipad-air-3-gold-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906798511080738_ipad-air-3-gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906798511100738_ipad-air-3-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906798513240738_ipad-air-3-gold-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906894408620099_ipad-mini-5-gold-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906894410480099_ipad-mini-5-gold-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906894411460099_ipad-mini-5-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906894411490099_ipad-mini-5-gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636906894414610099_ipad-mini-5-gold-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907475976490637_samsung-galaxy-a70-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907475976810637_samsung-galaxy-a70-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907475980100637_samsung-galaxy-a70-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907475981220637_samsung-galaxy-a70-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907523745957260_samsung-galaxy-a80-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907523746007260_samsung-galaxy-a80-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636907523746637260_samsung-galaxy-a80-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912614574572070_samsung-galaxy-a30-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912820366389653_ss-galaxy-tab-a-101-den-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912820366689653_ss-galaxy-tab-a-101-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912820366689653_ss-galaxy-tab-a-101-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912820367199653_ss-galaxy-tab-a-101-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636912820370999653_ss-galaxy-tab-a-101-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636916112234004683_636898814183234080_dell-inspiron-n3476-00508605-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636916112234114683_HASP-Dell-INS-N3476-AMD(15).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636916953215040289_dell-inspiron-n3476-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636923881329690610_ipad-air-3-4g-gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636923881329990580_ipad-air-3-4g-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636923894581445302_ipad-mini5-4g-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636923894581665280_ipad-mini5-4g-gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636928415238970301_xiaomi-mi-9-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636930203385853205_oppo-a5s-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636933637955357473_samsung-galaxy-a10-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636943826665822425_oppo-a1k-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946309132630742_dell-vostro-v3481-core-i3-7020u-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946309135780742_dell-vostro-v3481-core-i3-7020u-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946309136310742_dell-vostro-v3481-core-i3-7020u-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946309137070742_dell-vostro-v3481-core-i3-7020u-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946309138780742_dell-vostro-v3481-core-i3-7020u-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636946617688640554_oppo-reno-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948950246561627_macbook-pro-13-touch-bar-2019-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948950246751627_macbook-pro-13-touch-bar-2019-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948950246801627_macbook-pro-13-touch-bar-2019-xam-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948950247111627_macbook-pro-13-touch-bar-2019-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948952652077974_macbook-pro-15-touch-bar-2019-xam-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948952652297974_macbook-pro-15-touch-bar-2019-xam-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948952652427974_macbook-pro-15-touch-bar-2019-xam-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948952652837974_macbook-pro-15-touch-bar-2019-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948953542919202_macbook-pro-15-touch-bar-2019-bac-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948953542989195_macbook-pro-15-touch-bar-2019-bac-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948953543029191_macbook-pro-15-touch-bar-2019-bac-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636948953543279166_macbook-pro-15-touch-bar-2019-bac-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636951725534332796_ss-a80- vang-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636951725534644854_ss-a80- vang-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636955303939831698_oppo-reno-10x-zoom-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958490178178811_dell-inspiron-5584-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958490178646775_dell-inspiron-5584-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958490178802763_dell-inspiron-5584-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958490178802763_dell-inspiron-5584-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958606923779709_dell-inspiron-5482-silver-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958606923939709_dell-inspiron-5482-silver-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958606924149709_dell-inspiron-5482-silver-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958606924299709_dell-inspiron-5482-silver-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636958606924777673_dell-inspiron-5482-silver-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963822328452031_dell-vostro-v5581-70175957-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963822328452031_dell-vostro-v5581-70175957-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963822328608018_dell-vostro-v5581-70175957-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963822328919992_dell-vostro-v5581-70175957-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963822329075979_dell-vostro-v5581-70175957-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963829754202782_dell-inspiron-n5370-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963829754670767_dell-inspiron-n5370-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963829754670767_dell-inspiron-n5370-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963829754670767_dell-inspiron-n5370-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963846641363006_dell-inspiron-n3581-i3-7020-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963846642298928_dell-inspiron-n3581-i3-7020-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963846642298928_dell-inspiron-n3581-i3-7020-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963846642610902_dell-inspiron-n3581-i3-7020-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963846642766889_dell-inspiron-n3581-i3-7020-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963880699645250_dell-inspiron-n3480-bac-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963880700269198_dell-inspiron-n3480-bac-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963880700269198_dell-inspiron-n3480-bac-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963880700425185_dell-inspiron-n3480-bac-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963907378603710_dell-vostro-5481-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963907378603710_dell-vostro-5481-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963907378603710_dell-vostro-5481-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963907378759737_dell-vostro-5481-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963907380007953_dell-vostro-5481-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963912789534576_dell-3481-den-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963912789846560_dell-3481-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963912790002552_dell-3481-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963912790626520_dell-3481-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636963912790626520_dell-3481-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964467415357187_dell-vostro-v3480-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964467415357187_dell-vostro-v3480-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964467415825151_dell-vostro-v3480-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964467415981139_dell-vostro-v3480-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964475047437963_dell-inspiron-n3580-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964475047437963_dell-inspiron-n3580-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964475047437963_dell-inspiron-n3580-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636964475047749939_dell-inspiron-n3580-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636973183082327703_samsung-galaxy-tab-a8-2019-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636973183082367607_samsung-galaxy-tab-a8-2019-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636973183082427463_samsung-galaxy-tab-a8-2019-den-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636973183082447415_samsung-galaxy-tab-a8-2019-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636973183085170863_samsung-galaxy-tab-a8-2019-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977637533313571_dell-vostro-v3580-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977637533781520_dell-vostro-v3580-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977637536433231_dell-vostro-v3580-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977637536433231_dell-vostro-v3580-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977667337709615_dell-vostro-v3580i-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977667337709615_dell-vostro-v3580i-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977667341141285_dell-vostro-v3580i-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636977667341453255_dell-vostro-v3580i-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991281947522345_macbook-air-13-2019-silver-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991281947678337_macbook-air-13-2019-silver-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991281947678337_macbook-air-13-2019-silver-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991281947990321_macbook-air-13-2019-silver-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991283780263790_macbook-air-13-2019-gold-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991283780731763_macbook-air-13-2019-gold-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636991283780887754_macbook-air-13-2019-gold-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636993881843916699_vsmart-live-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636994743728810745_xiaomi-mi-9t-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636994958321498457_xiaomi-redmi-7a-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/636995644032612351_xiaomi-mi-a3-xam-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637001065755397910_dell-v3581-den-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637001065755553898_dell-v3581-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637001065755709886_dell-v3581-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637001065755709886_dell-v3581-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637001065755709886_dell-v3581-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637002757583637894_samsung-galaxy-tab-s6-xanh-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637002757583717886_samsung-galaxy-tab-s6-xanh-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637002757583807877_samsung-galaxy-tab-s6-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637002765551246478_samsung-galaxy-tab-s6-xanh-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637002765551402463_samsung-galaxy-tab-s6-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008129843485817_SS-S10e-green-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008129843825817_SS-S10e-green-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008129845765817_SS-S10e-green-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008587935229498_SS-note-10-glow-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008587935549690_SS-note-10-glow-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008587938711586_SS-note-10-glow-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008587939151850_SS-note-10-glow-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008587939942324_SS-note-10-glow-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008691895586121_SS-note-10-pl-glow-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008691896256121_SS-note-10-pl-glow-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008691896296121_SS-note-10-pl-glow-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008691896296121_SS-note-10-pl-glow-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637008702547566121_SS-note-10-pl-glow-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637012257236303478_dell-inspiron-n7591-bac-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637012257236343478_dell-inspiron-n7591-bac-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637012257236343478_dell-inspiron-n7591-bac-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637012257236453478_dell-inspiron-n7591-bac-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637012880064673970_SS-a10s-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637019089920371539_macbook-pro-13-touch-bar-2019-xam-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637019089920771539_macbook-pro-13-touch-bar-2019-xam-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637019089920951539_macbook-pro-13-touch-bar-2019-xam-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637019089921181539_macbook-pro-13-touch-bar-2019-xam-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637027741626320955_ss-a30s-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637027741626632925_ss-a30s-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637027741626632925_ss-a30s-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637030967816506704_ss-a50s-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637030967816506704_ss-a50s-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637030967816819060_ss-a50s-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637030967816819060_ss-a50s-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637031273088898415_oppo-a9-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637037652463329577_11-do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637037672778988772_11-pro-xanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637037687763926758_11-pro-max-xanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637037687765081535_11-pro-max-vang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637039011348629223_macbook-12-silver-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637039011349879085_macbook-12-silver-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637039015893343887_macbook-12-grey-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637039015893773918_macbook-12-grey-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637049168848152311_ss-a20s-xanh-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637049168848951724_ss-a20s-xanh-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637049168849121650_ss-a20s-xanh-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637049168849131639_ss-a20s-xanh-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637049168849441623_ss-a20s-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637057859885558677_oppo-a5-2020-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637060410960077373_xiaomi-redmi-note-8-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637060418361864075_xiaomi-redmi-note-8-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637060435932431657_xiaomi-redmi-note-8-pro-xanh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637060441292208256_xiaomi-redmi-note-8-pro-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063024309758682_oppo-reno2-den-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063038223413617_oppo-reno2-f-xanh-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063882537017599_ipad-wifi-2019-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063882537486653_ipad-wifi-2019-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063882537486653_ipad-wifi-2019-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063905215042663_ipad-wifi-4g-2019-vang-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063905215368952_ipad-wifi-4g-2019-vang-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637063905215498838_ipad-wifi-4g-2019-vang-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637072701542091596_xiaomi-redmi-8a-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637102750658709593_samsung-galaxy-fold-den-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637102750659209597_samsung-galaxy-fold-den-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637102750659229623_samsung-galaxy-fold-den-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637102754985533985_samsung-galaxy-fold-den-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637102754985873870_samsung-galaxy-fold-den-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637104705908003415_huawei-mediapad-m5-lite-101-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637104705908313430_huawei-mediapad-m5-lite-101-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637104705908963409_huawei-mediapad-m5-lite-101-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/637104705911913419_huawei-mediapad-m5-lite-101-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/MI-CC9-PRO-MI-NOTE-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/banner-lap-web-dai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/banner614-k20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/banner614-oto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/bao-hanh-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/giao-hang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/phone/tra-gop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/Data (D) - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/annotations-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-ant.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-ha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-storeconfig.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-tribes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/ecj-4.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/el-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jasper-el.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jasper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jaspic-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-coyote.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-dbcp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-de.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-es.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-fr.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ja.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ko.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ru.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-zh-CN.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-jdbc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-jni.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-util-scan.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-util.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-websocket.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/ListCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/ListCart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/db/DBConect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/Data (D) - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/ListCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/ListCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data (D) - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mobile.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_mobile.iws" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,83 +474,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="362">
+              <caret line="150" column="61" selection-start-line="150" selection-start-column="52" selection-end-line="150" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="322">
+              <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/ListCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="306">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
-                <element signature="e#0#2631#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -210,11 +509,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            <state relative-caret-position="31">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -227,9 +565,9 @@
         <option value="jsf" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -238,7 +576,13 @@
       <find>.l_hot_widget</find>
       <find>logo</find>
       <find>carousel_menu_inner</find>
+      <find>d-flex</find>
+      <find>IP 6s</find>
+      <find>cart_totals_area</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Iphone 6s</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -247,6 +591,22 @@
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_cart.java" />
+        <option value="$PROJECT_DIR$/web/Cart.jsp" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/header.jsp" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java" />
+      </list>
     </option>
   </component>
   <component name="JsFlowSettings">
@@ -262,6 +622,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
   <component name="ProjectId" id="1TgUDWQYYLfKmBCRlBrLHHPkUNF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,7 +638,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +679,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -330,7 +696,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="CSV-Groovy.csv.groovy" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/appweb/apache-tomcat-8.5.47/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -353,13 +719,15 @@
       <recent name="D:\Intellij\web_mobile\web\view_admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mobile_app\web\img" />
       <recent name="D:\Intellij\web_mobile\web\img\logo" />
       <recent name="D:\Intellij\web_mobile\web\WEB-INF\lib" />
       <recent name="D:\Intellij\web_mobile\web" />
       <recent name="D:\Intellij\web_mobile\web\js" />
-      <recent name="D:\Intellij\web_mobile\web\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.edu.nlu.fit.model" />
+      <recent name="vn.edu.nlu.fit.controller" />
       <recent name="vn.edu.nlu.fit.controller.admin" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -657,6 +1025,10 @@
       <workItem from="1595475682848" duration="597000" />
       <workItem from="1595476368013" duration="956000" />
       <workItem from="1595510976819" duration="1985000" />
+      <workItem from="1595908707857" duration="1485000" />
+      <workItem from="1595913442161" duration="2555000" />
+      <workItem from="1595922305935" duration="1493000" />
+      <workItem from="1596181868660" duration="15516000" />
     </task>
     <task id="LOCAL-00001" summary="aaaaa">
       <created>1595476414872</created>
@@ -686,17 +1058,60 @@
       <option name="project" value="LOCAL" />
       <updated>1595477155934</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="thêm sản phẩm vào giỏ hàng, show giỏ hàng">
+      <created>1595879194651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595879194651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="798000" />
+    <option name="totallyTimeSpent" value="23198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.28744328" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.501006" side_tool="true" weight="0.28744328" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.048309177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.078904994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Sequence2" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.5185185" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49924356" weight="0.5185185" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -712,15 +1127,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Sequence2" order="11" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.63607085" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.5185185" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49924356" visible="true" weight="0.63607085" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49924356" weight="0.5185185" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -730,7 +1145,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1018,10 +1433,165 @@
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578493214831" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/sunglass-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/three-column/product-three-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/three-column/product-three-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-big-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/637008691896256121_SS-note-10-pl-glow-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/635961665195248508_taba6-den-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/635961665337125082_taba6-den-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/468-laptop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/637030967816819060_ss-a50s-den-4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4321" column="21" selection-start-line="4321" selection-start-column="21" selection-end-line="4321" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="322">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,49 +1601,74 @@
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/ListCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" column="75" selection-start-line="153" selection-start-column="75" selection-end-line="153" selection-end-column="75" />
+        <state relative-caret-position="362">
+          <caret line="150" column="61" selection-start-line="150" selection-start-column="52" selection-end-line="150" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/add.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#2631#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="292">
+          <caret line="81" column="88" selection-start-line="81" selection-start-column="88" selection-end-line="81" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="31">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

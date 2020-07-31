@@ -1,9 +1,6 @@
 package vn.edu.nlu.fit.controller;
 
-import vn.edu.nlu.fit.model.Cart;
-import vn.edu.nlu.fit.model.Database;
-import vn.edu.nlu.fit.model.ListCart;
-import vn.edu.nlu.fit.model.Util;
+import vn.edu.nlu.fit.model.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,7 +27,7 @@ public class add extends HttpServlet {
             Cart item = new Cart(Database.getProduct(id_product), 1);
 
             ListCart listCArt = (ListCart) session.getAttribute("list_cart");
-
+            User u = (User) session.getAttribute("user");
             if (listCArt == null)
                 listCArt = new ListCart();
             if (!listCArt.list_cart.isEmpty()) {
@@ -39,10 +36,14 @@ public class add extends HttpServlet {
                     check++;
                     if (product.getPro().getId_product().equals(id_product)) {
                         product.setTotal(product.getTotal() + 1);
+                        if (u != null) {
+                            Database.setSLC(id_product, u.getUser_name(), product.getTotal());
+                        }
                         break;
                     }
                     if (check == listCArt.list_cart.size()) {
                         listCArt.list_cart.add(item);
+                        Database.addCart(item, u.getUser_name());
                         break;
                     }
                 }
@@ -52,9 +53,7 @@ public class add extends HttpServlet {
                 }
             }
             session.setAttribute("list_cart", listCArt);
-            if (btn_buy_now != null)
-                response.sendRedirect(Util.fullPath("show_cart"));
-            else response.sendRedirect(Util.fullPath("home"));
+            response.sendRedirect(Util.fullPath("home"));
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

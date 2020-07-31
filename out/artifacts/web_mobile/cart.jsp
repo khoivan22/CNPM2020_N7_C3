@@ -52,7 +52,7 @@
                     <div class="col-lg-8">
                         <div class="cart_items">
                             <h3>Your Cart Items</h3>
-                            <div class="table-responsive-md">
+                            <div class="table-responsive-md"  style="height: 70vh; overflow: auto">
                                 <table class="table">
                                     <tbody>
                                     <%
