@@ -1,6 +1,8 @@
 package vn.edu.nlu.fit.controller;
 
 import vn.edu.nlu.fit.model.*;
+import vn.edu.nlu.fit.model.cart.Cart;
+import vn.edu.nlu.fit.model.cart.ListCart;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,6 +13,7 @@ import java.sql.SQLException;
 @WebServlet("/login")
 public class login extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws ServletException, IOException {
+
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain");
@@ -25,13 +28,14 @@ public class login extends javax.servlet.http.HttpServlet {
                 session.setAttribute("user", u);
                 ListCart listCart = (ListCart) session.getAttribute("list_cart");
                 if (listCart != null) {
-                    System.out.println("b");
                     for (Cart c : listCart.list_cart) {
-                        System.out.println("c");
                         Database.addCart(c, user);
                 }
-                    session.setAttribute("list_cart", listCart);
+                    listCart.list_cart.clear();
                 }
+                if(listCart==null) listCart=new ListCart();
+                listCart.list_cart.addAll(Database.getListcart().list_cart);
+                session.setAttribute("list_cart",listCart);
                 response.sendRedirect(Util.fullPath("home"));
             }
         } catch (SQLException e) {

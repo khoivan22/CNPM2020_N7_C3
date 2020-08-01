@@ -1,4 +1,6 @@
-package vn.edu.nlu.fit.model;
+package vn.edu.nlu.fit.model.cart;
+
+import vn.edu.nlu.fit.model.cart.Cart;
 
 import java.util.ArrayList;
 

@@ -82,8 +82,8 @@
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
                     <ul class="navbar-nav justify-content-end">
-                        <li class="search_icon"><a href="#"><i class="icon-magnifier icons"></i></a></li>
-                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i class="icon-user icons"></i></a></li>
+                        <li class="search_icon"><a href="#"><i style="font-size: 14px"> Register</i></a></li>
+                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i style="font-size: 14px">Login</i></a></li>
                         <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i class="icon-handbag icons"></i></a></li>
                     </ul>
                 </div>

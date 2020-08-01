@@ -1,5 +1,8 @@
 package vn.edu.nlu.fit.model;
 
+import vn.edu.nlu.fit.model.cart.Cart;
+import vn.edu.nlu.fit.model.cart.ListCart;
+
 import java.sql.*;
 
 public class Database {
@@ -70,7 +73,8 @@ public class Database {
             check = true;
         return check;
     }
-public static  ListCart getListcart(){
+public static ListCart getListcart(){
+    System.out.println("jgkdfhgdddddddddddddddddddddddddddddddddddddddddddd");
         ListCart l= new ListCart();
     String query = "SELECT * FROM `cart`";
 
@@ -88,6 +92,19 @@ public static  ListCart getListcart(){
         e.printStackTrace();
     }
 return l;
+}
+public static  void delCart(String idProduct, String userName){
+    String query = "DELETE FROM `cart` WHERE `ID_product` = ? AND `USER_NAME`=? ;";
+    try {
+        PreparedStatement preparedStatement = Database.getPreparedStatement(query);
+        preparedStatement.setString(1, idProduct);
+        preparedStatement.setString(2, userName);
+        preparedStatement.executeUpdate();
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
 }
 public static void setSLC(String idProduct, String userName, int soluong){
     String query = "UPDATE `cart` SET `soluong` =? WHERE `ID_product` = ? AND `USER_NAME`=? ;";
@@ -145,4 +162,6 @@ public static void setSLC(String idProduct, String userName, int soluong){
         }
         return pro;
     }
+
+
 }

@@ -1,6 +1,8 @@
-package vn.edu.nlu.fit.controller;
+package vn.edu.nlu.fit.controller.cart;
 
 import vn.edu.nlu.fit.model.*;
+import vn.edu.nlu.fit.model.cart.Cart;
+import vn.edu.nlu.fit.model.cart.ListCart;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -43,7 +45,9 @@ public class add extends HttpServlet {
                     }
                     if (check == listCArt.list_cart.size()) {
                         listCArt.list_cart.add(item);
-                        Database.addCart(item, u.getUser_name());
+                        if (u != null) {
+                            Database.addCart(item, u.getUser_name());
+                        }
                         break;
                     }
                 }

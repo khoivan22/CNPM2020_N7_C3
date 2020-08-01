@@ -1,5 +1,5 @@
-<%@ page import="vn.edu.nlu.fit.model.ListCart" %>
-<%@ page import="vn.edu.nlu.fit.model.Cart" %>
+<%@ page import="vn.edu.nlu.fit.model.cart.ListCart" %>
+<%@ page import="vn.edu.nlu.fit.model.cart.Cart" %>
 <%@ page import="vn.edu.nlu.fit.model.Util" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -52,9 +52,9 @@
                     <div class="col-lg-8">
                         <div class="cart_items">
                             <h3>Your Cart Items</h3>
-                            <div class="table-responsive-md"  style="height: 70vh; overflow: auto">
+                            <div class="table-responsive-md" style="height: 70vh; overflow: auto" >
                                 <table class="table">
-                                    <tbody>
+                                    <tbody >
                                     <%
                                         ListCart list_item = (ListCart) session.getAttribute("list_cart");
                                         if (list_item.list_cart.isEmpty()) {
@@ -66,7 +66,7 @@
                                     %>
                                         <tr>
                                             <th scope="row">
-                                                <img src="img/icon/close-icon.png" alt="">
+                                                <a href="<%=Util.fullPath("delete?id_del="+item.getPro().getId_product())%>"><img src="img/icon/close-icon.png" ></a>
                                             </th>
                                             <td>
                                                 <div class="media">
@@ -74,48 +74,56 @@
                                                         <img style="width: 102px; height: 123px" src="<%=Util.splitImg(item.getPro().getImg())%>" alt="">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4>Round Sunglasses</h4>
+                                                        <h4><%=Util.splitImg(item.getPro().getProduct_name())%></h4>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td><p class="red"><%=Util.convertPrice(item.getPro().getPrice())%></p></td>
+                                            <td><p class="red"><%=Util.convertPrice(item.getPro().getPrice()-item.getPro().getDiscout())%></p></td>
                                             <td>
                                                 <div class="quantity">
-                                                    <h6>Quantity</h6>
-                                                    <div class="custom">
-                                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;" class="reduced items-count" type="button"><i class="icon_minus-06"></i></button>
-                                                        <input type="text" name="qty" id="sst" maxlength="12" value="<%=item.getTotal()%>" title="Quantity:" class="input-text qty">
-                                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;" class="increase items-count" type="button"><i class="icon_plus"></i></button>
+
+                                                    <div class="custom" >
+                                                               <a href="<%=Util.fullPath("reduction?id_product="+item.getPro().getId_product())%>"> <i style="color: #000" class="fa fa-minus-square"></i></a>
+                                                        <span type="number" style="    background: bisque; padding-left: 11px; padding-right: 11px" class="rounded text-center"><%=item.getTotal()%></span>
+
+                                                               <a href="<%=Util.fullPath("increase?id_product="+item.getPro().getId_product())%>"> <i style="color: #000" class="fa fa-plus-square"></i></a>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td><p><%=Util.convertPrice(item.getPro().getPrice()*item.getTotal())%></p></td>
+                                            <td><p><%=Util.convertPrice((item.getPro().getPrice()-item.getPro().getDiscout())*item.getTotal())%></p></td>
                                         </tr>
                                    <%
                                        }}
                                    %>
-                                        <tr class="last">
-                                            <th scope="row">
-                                                <img src="img/icon/cart-icon.png" alt="">
-                                            </th>
-                                            <td>
-                                                <div class="media">
-                                                    <div class="d-flex">
-                                                        <h5>Cupon code</h5>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <input type="text" placeholder="Apply cuopon">
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td><p class="red"></p></td>
-                                            <td>
-                                                <h3>update cart</h3>
-                                            </td>
-                                            <td></td>
-                                        </tr>
                                     </tbody>
+
                                 </table>
+                            </div>
+                            <div class="table-responsive-md">
+                            <table class="table">
+                            <tbody>
+                            <tr class="last" >
+                                <th scope="row">
+                                    <img src="img/icon/cart-icon.png" alt="">
+                                </th>
+                                <td>
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <h5>Cupon code</h5>
+                                        </div>
+                                        <div class="media-body">
+                                            <input type="text" placeholder="Apply cuopon">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><p class="red"></p></td>
+                                <td>
+                                    <h3>update cart</h3>
+                                </td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                            </table>
                             </div>
                         </div>
                     </div>
