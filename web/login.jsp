@@ -37,7 +37,7 @@
         <![endif]-->
     </head>
     <body>
-        
+
         <!--================Menu Area =================-->
         <%@include file="header.jsp" %>
         <!--================End Menu Area =================-->
@@ -52,12 +52,12 @@
                                 <h2>log in your account</h2>
                                 <p>Log in to your account to discovery all great features in this template.</p>
                             </div>
-                            <form action="login" method="post">
+                            <form class="login_form row" action="login" method="post">
                                 <div class="col-lg-12 form-group">
-                                    <input name="username" type="text" placeholder="User Name">
+                                    <input class="form-control" type="text" name="username" placeholder="User Name" required>
                                 </div>
                                 <div class="col-lg-12 form-group">
-                                    <input name="password" type="password" placeholder="Password">
+                                    <input class="form-control" type="password" name="password" placeholder="Password" required>
                                 </div>
                                 <div class="col-lg-12 form-group">
                                     <div class="creat_account">
@@ -66,9 +66,13 @@
                                         <div class="check"></div>
                                     </div>
                                     <h4>Forgot your password ?</h4>
+                                    <fb:login-button
+                                            scope="public_profile,email"
+                                            onlogin="checkLoginState();">
+                                    </fb:login-button>
                                 </div>
                                 <div class="col-lg-12 form-group">
-                                  <a>  <button type="submit" value="submit" class="btn update_btn form-control">Login</button></a>
+                                    <button type="submit" value="submit" class="btn update_btn form-control">Login</button>
                                 </div>
                             </form>
                         </div>
@@ -142,5 +146,70 @@
         <script src="vendors/jquery-ui/jquery-ui.js"></script>
         
         <script src="js/theme.js"></script>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+        <!-- script dang nhap bang facebook -->
+        <script>
+            function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                if (response.status === 'connected') {
+                    testAPI();
+                } else {
+                    document.getElementById('status').innerHTML = 'Please log ' +
+                        'into this app.';
+                }
+            }
+
+            function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+                FB.api('/me',{fields: ' name, email'}, function(response) {
+                    console.log(response);
+                    window.location.href = 'Login?action=Face&name='+response.name+'&email='+response.email+'&id='+response.id;
+                });
+            }
+
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '735019480627374',
+                    cookie     : true,
+                    xfbml      : true,
+                    version    : 'v7.0'
+                });
+
+
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+
+            };
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            function testAPI() {
+                console.log('Welcome!  Fetching your information.... ');
+                FB.api('/me', function(response) {
+                    console.log('Successful login for: ' + response.name);
+                    document.getElementById('status').innerHTML =
+                        'Thanks for logging in, ' + response.name + '!';
+                });
+            }
+        </script>
     </body>
 </html>

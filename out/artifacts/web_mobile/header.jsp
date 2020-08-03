@@ -1,4 +1,5 @@
-<%@ page import="vn.edu.nlu.fit.model.Util" %><%--
+<%@ page import="vn.edu.nlu.fit.model.Util" %>
+<%@ page import="vn.edu.nlu.fit.model.User" %><%--
   Created by IntelliJ IDEA.
   User: vkhoi
   Date: 7/18/2020
@@ -29,7 +30,10 @@
                 </div>
                 <div class="float-md-right">
                     <ul class="account_list">
-                        <li><a href="login.jsp">My Account</a></li>
+                        <li><% User u = (User) session.getAttribute("user");
+                            if(u==null){
+
+                        %><a href="login.jsp">My Account</a><%} else {%> <a href=""><%=u.getFull_name()%></a><%}%></li>
                         <li><a href="#">Wish List (0)</a></li>
                         <li><a href="#">Shopping Cart</a></li>
                         <li><a href="#">Checkout</a></li>
