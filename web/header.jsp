@@ -103,7 +103,7 @@
                     </ul>
                     <ul class="navbar-nav justify-content-end">
                         <li class="search_icon"><a href="#"><i style="font-size: 14px"> Register</i></a></li>
-                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i
+                         <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i
                                 style="font-size: 14px">Login</i></a></li>
                         <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i
                                 class="icon-handbag icons"></i></a></li>
@@ -112,4 +112,5 @@
             </nav>
         </div>
     </div>
+
 </header>

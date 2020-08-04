@@ -42,12 +42,7 @@ public class login extends javax.servlet.http.HttpServlet {
             } else {
                 response.sendRedirect(Util.fullPath("login.jsp"));
             }
-            String action = request.getParameter("action");
-//            if (action.equals("Face")) {
-//                String name = request.getParameter("name");
-//                String email = request.getParameter("email");
-//                String id = request.getParameter("id");
-//            }
+
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
