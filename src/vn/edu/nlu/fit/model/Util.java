@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 
 public class Util {
     static final String HOST = "http://localhost:8080/web_mobile/";
-//    static final String HOST = "http://webmobile.jl.serv.net.mx/";
+//    static final String HOST = "http://env-7476772.j.layershift.co.uk/";
 
     public static String fullPath(String path) {
         return HOST + path;

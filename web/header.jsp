@@ -1,4 +1,5 @@
-<%@ page import="vn.edu.nlu.fit.model.Util" %><%--
+<%@ page import="vn.edu.nlu.fit.model.Util" %>
+<%@ page import="vn.edu.nlu.fit.model.User" %><%--
   Created by IntelliJ IDEA.
   User: vkhoi
   Date: 7/18/2020
@@ -13,13 +14,44 @@
                 <div class="float-md-left">
                     <div class="top_header_left">
                         <div class="selector">
+<<<<<<< HEAD
 
+=======
+                            <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt"
+                                        data-title="English">English
+                                </option>
+                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu"
+                                        data-title="Bangladesh">Bangla
+                                </option>
+                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt"
+                                        data-title="English">English
+                                </option>
+                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu"
+                                        data-title="Bangladesh">Bangla
+                                </option>
+                            </select>
+>>>>>>> b76cae6dc03b3e53d21102b419577ce6de6caab1
                         </div>
 
                     </div>
                 </div>
                 <div class="float-md-right">
+<<<<<<< HEAD
 
+=======
+                    <ul class="account_list">
+                        <li><% User u = (User) session.getAttribute("user");
+                            if (u == null) {
+                        %>
+                            <a href="login.jsp">My Account</a>
+                            <%} else {%> <a href=""><%=u.getFull_name()%>
+                            </a><%}%></li>
+                        <li><a href="#">Wish List (0)</a></li>
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+>>>>>>> b76cae6dc03b3e53d21102b419577ce6de6caab1
                 </div>
             </div>
         </div>
@@ -27,8 +59,11 @@
     <div class="carousel_menu_inner">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="<%=Util.fullPath("home")%>"><img src="<%=Util.fullPath("img/logo.png")%>" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="<%=Util.fullPath("home")%>"><img src="<%=Util.fullPath("img/logo.png")%>"
+                                                                               alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
 
                 </button>
@@ -36,7 +71,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown submenu active">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
                                 Điện thoại <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <ul class="dropdown-menu">
@@ -48,7 +84,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
                                 Laptop <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <ul class="dropdown-menu">
@@ -60,7 +97,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
                                 Phụ kiện <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -69,11 +107,14 @@
                     </ul>
                     <ul class="navbar-nav justify-content-end">
                         <li class="search_icon"><a href="#"><i style="font-size: 14px"> Register</i></a></li>
-                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i style="font-size: 14px">Login</i></a></li>
-                        <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i class="icon-handbag icons"></i></a></li>
+                         <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i
+                                style="font-size: 14px">Login</i></a></li>
+                        <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i
+                                class="icon-handbag icons"></i></a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
+
 </header>

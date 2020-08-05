@@ -14,6 +14,8 @@
             <element id="library" level="project" name="uploadfile" />
             <element id="library" level="project" name="lib1" />
             <element id="library" level="project" name="lib2" />
+            <element id="library" level="project" name="lib4" />
+            <element id="library" level="project" name="mysql-connector-java-5.1.47-bin" />
           </element>
         </element>
       </root>
@@ -30,6 +32,8 @@
           <element id="directory" name="lib">
             <element id="library" level="project" name="lib1" />
             <element id="library" level="project" name="lib2" />
+            <element id="library" level="project" name="lib4" />
+            <element id="library" level="project" name="mysql-connector-java-5.1.47-bin" />
           </element>
         </element>
       </root>
@@ -185,7 +189,6 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/out/artifacts/web_mobile/database/webmobile.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/web/database/webmobile.sql" dialect="MySQL" />
   </component>
   <component name="VcsDirectoryMappings">
@@ -211,6 +214,21 @@
     </data-source>
   </component>
   <component name="libraryTable">
+    <library name="Java EE 6-Java EE 6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="jstl">
       <CLASSES />
       <JAVADOC />
@@ -231,13 +249,17 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="lib3">
+    <library name="lib4">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="mysql-connector-java-5.1.47-bin">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../apache-tomcat-8.5.55/lib" />
+        <root url="jar://$PROJECT_DIR$/web/lib/mysql-connector-java-5.1.47-bin.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../apache-tomcat-8.5.55/lib" recursive="false" />
     </library>
     <library name="uploadfile">
       <CLASSES>

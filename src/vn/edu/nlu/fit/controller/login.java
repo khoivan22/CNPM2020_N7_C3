@@ -1,5 +1,6 @@
 package vn.edu.nlu.fit.controller;
 
+
 import vn.edu.nlu.fit.model.*;
 import vn.edu.nlu.fit.model.cart.Cart;
 import vn.edu.nlu.fit.model.cart.ListCart;
@@ -24,20 +25,24 @@ public class login extends javax.servlet.http.HttpServlet {
         try {
             User u = Database.getUser(user);
             boolean validate = Database.checkLogin(user, pass);
-            if (u != null && validate ) {
+            if (u != null && validate) {
                 session.setAttribute("user", u);
                 ListCart listCart = (ListCart) session.getAttribute("list_cart");
                 if (listCart != null) {
                     for (Cart c : listCart.list_cart) {
                         Database.addCart(c, user);
-                }
+                    }
                     listCart.list_cart.clear();
                 }
-                if(listCart==null) listCart=new ListCart();
+                if (listCart == null) listCart = new ListCart();
                 listCart.list_cart.addAll(Database.getListcart().list_cart);
-                session.setAttribute("list_cart",listCart);
+                session.setAttribute("list_cart", listCart);
+                session.setAttribute("user", u);
                 response.sendRedirect(Util.fullPath("home"));
+            } else {
+                response.sendRedirect(Util.fullPath("login.jsp"));
             }
+
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
