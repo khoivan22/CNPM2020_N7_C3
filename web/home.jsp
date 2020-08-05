@@ -152,9 +152,35 @@
                                                 count++;
                                     %>
                                     <div class="l_product_item">
-                                        <div class="l_p_img">
-                                            <img src="<%=Util.splitImg(rs.getString(3))%>" alt="img">
-                                            <h5 class="sale">Sale</h5>
+
+                                        <div class="l_p_img" >
+                                            <a href="<%=Util.fullPath("detail_product?detail="+rs.getString(6))%>">
+                                                <img src="<%=Util.splitImg(rs.getString(3))%>" alt="img">
+                                                <h5 class="sale">Sale</h5>
+                                            </a>
+                                        </div>
+                                        </a>
+                                        <div style="text-align: center">
+                                            <%
+                                                if (rs.getInt(8) == 0) {
+                                            %>
+                                            <span style="font-size: 10px;color: #1b1e21">Chưa có đánh giá</span>
+                                            <%
+                                            } else {
+
+                                                for (int j = 0; j < rs.getInt(8); j++) {
+                                            %>
+                                            <i class="fa fa-star star" style="color:darkorange"></i>
+                                            <%
+                                                }
+                                                for (int j = 0; j < 5 - rs.getInt(8); j++) {
+                                            %>
+
+                                            <i class="fa fa-star star" style="color: #9fcdff"></i>
+                                            <%
+                                                    }
+                                                }
+                                            %>
                                         </div>
                                         <div class="l_p_text">
                                             <ul>
@@ -176,6 +202,9 @@
                                                 </br> <%=Util.convertPrice(rs.getDouble(2) - rs.getDouble(7))%>
                                             </h5>
                                         </div>
+                                        </a>
+
+
                                     </div>
                                     <%
 
@@ -415,7 +444,7 @@
     <!--================End Footer Area =================-->
 
 </div>
-
+<%@include file="backToTop.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<%=Util.fullPath("js/jquery-3.2.1.min.js")%>"></script>
