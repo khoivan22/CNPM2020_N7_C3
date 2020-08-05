@@ -14,44 +14,11 @@
                 <div class="float-md-left">
                     <div class="top_header_left">
                         <div class="selector">
-<<<<<<< HEAD
-
-=======
-                            <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt"
-                                        data-title="English">English
-                                </option>
-                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu"
-                                        data-title="Bangladesh">Bangla
-                                </option>
-                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt"
-                                        data-title="English">English
-                                </option>
-                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu"
-                                        data-title="Bangladesh">Bangla
-                                </option>
-                            </select>
->>>>>>> b76cae6dc03b3e53d21102b419577ce6de6caab1
                         </div>
 
                     </div>
                 </div>
                 <div class="float-md-right">
-<<<<<<< HEAD
-
-=======
-                    <ul class="account_list">
-                        <li><% User u = (User) session.getAttribute("user");
-                            if (u == null) {
-                        %>
-                            <a href="login.jsp">My Account</a>
-                            <%} else {%> <a href=""><%=u.getFull_name()%>
-                            </a><%}%></li>
-                        <li><a href="#">Wish List (0)</a></li>
-                        <li><a href="#">Shopping Cart</a></li>
-                        <li><a href="#">Checkout</a></li>
-                    </ul>
->>>>>>> b76cae6dc03b3e53d21102b419577ce6de6caab1
                 </div>
             </div>
         </div>

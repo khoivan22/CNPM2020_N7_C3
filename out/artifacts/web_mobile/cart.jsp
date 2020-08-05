@@ -72,9 +72,10 @@
                                             </th>
                                             <td>
                                                 <div class="media">
-                                                    <div class="d-flex">
+                                                    <a href="<%=Util.fullPath("detail_product?detail="+item.getPro().getId_product())%>"><div class="d-flex">
                                                         <img style="width: 102px; height: 123px" src="<%=Util.splitImg(item.getPro().getImg())%>" alt="">
                                                     </div>
+                                                    </a>
                                                     <div class="media-body">
                                                         <h4><%=Util.splitImg(item.getPro().getProduct_name())%></h4>
                                                     </div>
