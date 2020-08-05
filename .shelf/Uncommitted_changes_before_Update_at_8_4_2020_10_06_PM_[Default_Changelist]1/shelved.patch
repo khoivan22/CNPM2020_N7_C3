@@ -1,0 +1,155 @@
+Index: out/artifacts/web_mobile/register.jsp
+===================================================================
+--- out/artifacts/web_mobile/register.jsp	(revision 214ba716f51efe89f1fdee1c88ca5708240f53c2)
++++ out/artifacts/web_mobile/register.jsp	(revision 214ba716f51efe89f1fdee1c88ca5708240f53c2)
+@@ -1,83 +0,0 @@
+-<%@ page import="vn.edu.nlu.fit.util.Util" %>
+-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+-<!--================= REGISTER ==============-->
+-<!-- Modal -->
+-<div class="modal fade" id="regisModal" tabindex="-1" role="dialog">
+-    <div class="modal-dialog" role="document">
+-        <div class="modal-content  w-75 m-auto">
+-            <div class="card">
+-                <div class="card-header bg-light">
+-                    <h4 class="card-title text-center font-weight-bold">Đăng ký</h4>
+-                </div>
+-                <div class="card-body">
+-                    <form action="<%=Util.fullPath("register")%>" method="POST" class="form-regis" name="register">
+-
+-                        <div class="input-group mb-4 mt-5">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fa fa-user"></i>
+-                                </span>
+-                            </div>
+-                            <input name="user_register" type="text" id="inputUser" class="form-control"
+-                                   placeholder="Nhập tên đăng nhập"
+-                                   autofocus>
+-                        </div>
+-                        <div class="input-group mb-4">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fa fa-key"></i>
+-                                </span>
+-                            </div>
+-                            <input name="pass_register" type="password" id="inputPass" class="form-control"
+-                                   placeholder="Nhập mật khẩu"
+-                            >
+-                        </div>
+-                        <div class="input-group mb-4">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fa fa-key"></i>
+-                                </span>
+-                            </div>
+-                            <input name="rePass_register" type="password" id="inputRePass" class="form-control"
+-                                   placeholder="Nhập lại mật khẩu"
+-                            >
+-                        </div>
+-                        <div class="input-group mb-4">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fa fa-id-card"></i>
+-                                </span>
+-                            </div>
+-                            <input name="name_register" type="text" id="inputName" class="form-control"
+-                                   placeholder="Nhập họ và tên"
+-                            >
+-                        </div>
+-                        <div class="input-group mb-4">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fas fa-envelope"></i>
+-                                </span>
+-                            </div>
+-                            <input name="mail_register" type="email" id="inputMail" class="form-control"
+-                                   placeholder="Nhập Email"
+-                            >
+-                        </div>
+-                        <div class="input-group mb-4">
+-                            <div class="input-group-prepend">
+-                                <span class="input-group-text">
+-                                    <i class="fa fa-phone"></i>
+-                                </span>
+-                            </div>
+-                            <input name="phone_register" type="tel" id="inputPhone" class="form-control"
+-                                   placeholder="Nhập số điện thoại"
+-                            >
+-                        </div>
+-                        <button id="submitRegis" class="btn_regis btn btn-lg btn-block text-uppercase" type="submit">
+-                            Đăng ký
+-                        </button>
+-                    </form>
+-                </div>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+\ No newline at end of file
+Index: src/vn/edu/nlu/fit/controller/cart/Regis.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/vn/edu/nlu/fit/controller/cart/Regis.java	(date 1595216208372)
++++ src/vn/edu/nlu/fit/controller/cart/Regis.java	(date 1595216208372)
+@@ -0,0 +1,58 @@
++package vn.edu.nlu.fit.controller.cart;
++
++import vn.edu.nlu.fit.model.Database;
++
++import javax.servlet.ServletException;
++import javax.servlet.annotation.WebServlet;
++import javax.servlet.http.HttpServlet;
++import javax.servlet.http.HttpServletRequest;
++import javax.servlet.http.HttpServletResponse;
++import javax.servlet.http.HttpSession;
++import javax.xml.crypto.Data;
++import java.io.IOException;
++import java.sql.PreparedStatement;
++import java.sql.ResultSet;
++import java.sql.SQLException;
++
++@WebServlet("/Regis")
++public class Regis extends HttpServlet {
++    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
++        doGet(request, response);
++    }
++
++    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
++        String name = request.getParameter("name");
++        String phone = request.getParameter("phone");
++        String username = request.getParameter("username");
++        String pass = request.getParameter("pass");
++        String mail = request.getParameter("mail");
++        String repass = request.getParameter("repass");
++
++        String adduser = "INSERT INTO user VALUES(?, ?,?,?,?)";
++
++        try {
++            PreparedStatement statement = Database.getPreparedStatement(adduser);
++            statement.setString(1, username);
++            statement.setString(2, pass);
++            statement.setString(3, name);
++            statement.setString(4, mail);
++            statement.setString(5, phone);
++            // được sử dụng để thực thi câu truy vấn được chỉ định, nó có thể là create,  update, ...
++            int resultSet = statement.executeUpdate();
++
++
++            // sử dụng request.setAttribute() thì chúng ta thường gữi dữ liệu sang sang file jsp
++            request.setAttribute("rs", resultSet);
++
++            // là phương thức chuyển hướng các phản ứng đến tài nguyên khác.
++            response.sendRedirect("login.jsp");
++
++        } catch (ClassNotFoundException e) {
++            e.printStackTrace();
++        } catch (SQLException throwables) {
++            throwables.printStackTrace();
++        }
++
++
++    }
++}
