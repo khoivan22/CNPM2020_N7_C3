@@ -57,7 +57,10 @@ public class add extends HttpServlet {
                 }
             }
             session.setAttribute("list_cart", listCArt);
-            response.sendRedirect(Util.fullPath("home"));
+            if(btn_buy_now!=null)
+            response.sendRedirect(Util.fullPath("show_cart"));
+            else
+                response.sendRedirect(Util.fullPath("home"));
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

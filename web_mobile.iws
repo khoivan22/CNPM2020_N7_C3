@@ -5,93 +5,20 @@
       <artifact name="web_mobile_war" />
     </artifacts-to-build>
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/loginWithFacebook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/annotations-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-ant.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-ha.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-storeconfig.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina-tribes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/catalina.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/ecj-4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/el-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jasper-el.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jasper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jaspic-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-coyote.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-cs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-de.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-es.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-fr.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ja.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ko.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-pt-BR.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-ru.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-i18n-zh-CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-jdbc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-jni.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-util-scan.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-util.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/tomcat-websocket.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/websocket-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/loginWithFacebook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/META-INF/web_mobile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/META-INF/web_mobile.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/META-INF/web_mobile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/META-INF/web_mobile.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mobile.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.ipr" afterDir="false" />
-=======
-    <list default="true" id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="thêm sản phẩm vào giỏ hàng, show giỏ hàng">
+    <list default="true" id="8d81aee4-ed48-4dbd-b63d-c559c32ec023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.shelf/Uncommitted_changes_before_Update_at_8_4_2020_10_06_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.shelf/Uncommitted_changes_before_Update_at_8_4_2020_10_06_PM_[Default_Changelist]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.shelf/Uncommitted_changes_before_Update_at_8_4_2020_10_06_PM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.shelf/Uncommitted_changes_before_Update_at_8_4_2020_10_06_PM__Default_Changelist_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/comment/comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/comment/del_comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/detail_product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/comment/comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/comment/del_comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/detail_product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Comment.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/del_comment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" afterDir="false" />
@@ -106,174 +33,96 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/detail_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/detail_product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/pay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web_mobile/META-INF/web_mobile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/META-INF/web_mobile.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_mobile.iws" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iws" afterDir="false" />
     </list>
+    <ignored path="E:\mobile_app\.shelf/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webmobile@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webmobile@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webmobile@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webmobile: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webmobile@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webmobile: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="comment: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="web_mobile" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="22" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Cart.jsp">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="187" column="84" selection-start-line="187" selection-start-column="84" selection-end-line="187" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="529">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="277">
+              <caret line="167" column="41" lean-forward="true" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-34">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="124" column="88" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/headAllPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="jsf" />
-        <option value="JavaScript File" />
-        <option value="AnnotationType" />
-        <option value="Jsp File" />
-        <option value="Class" />
-        <option value="CSS File" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mua</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_cart.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Cart.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/ListCart.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/add.java" />
-        <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/reduction.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java" />
-        <option value="$PROJECT_DIR$/web/header.jsp" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
-        <option value="$PROJECT_DIR$/web/Cart.jsp" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -287,10 +136,6 @@
     <option name="y" value="20" />
     <option name="width" value="983" />
     <option name="height" value="698" />
-  </component>
-  <component name="ProjectId" id="1TgUDWQYYLfKmBCRlBrLHHPkUNF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -309,20 +154,12 @@
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name=".ideaDataSources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="web_mobile_war" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
@@ -334,6 +171,21 @@
               <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fit" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fit" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
@@ -342,68 +194,22 @@
               <item name="fit" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.data.extractors.current.id" value="CSV-Groovy.csv.groovy" />
-    <property name="extract.method.default.visibility" value="private" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/web_mobile_jsp-master" />
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CNPM\Code\CNPM2020_N7_C3\web" />
-      <recent name="D:\Intellij\web_mobile\web" />
-      <recent name="D:\Intellij\web_mobile\web\img\snow" />
-      <recent name="D:\Intellij\web_mobile\web\admin\include" />
-      <recent name="D:\Intellij\web_mobile\web\view_admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\mobile_app\web\img" />
-      <recent name="D:\Intellij\web_mobile\web\img\logo" />
-      <recent name="D:\Intellij\web_mobile\web\WEB-INF\lib" />
-      <recent name="D:\Intellij\web_mobile\web" />
-      <recent name="D:\Intellij\web_mobile\web\js" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="vn.edu.nlu.fit.model" />
-      <recent name="vn.edu.nlu.fit.controller" />
-      <recent name="vn.edu.nlu.fit.controller.admin" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vn.edu.nlu.fit.controller" />
-    </key>
-  </component>
-<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -416,123 +222,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vn.edu.nlu.fit.model.Database" />
-      <module name="web_mobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vn.edu.nlu.fit.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-=======
-  <component name="RunManager" selected="Tomcat Server.tom">
-    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/web_mobile/login.jsp">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_web_mobile" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52575" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/web_mobile/login.jsp">
-      <method v="2" />
-    </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false">
-=======
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <name>CONTEXT_XML</name>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <name>STAGING</name>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52576" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tom" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files/Java/jdk-14.0.1">
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web_mobile/home" />
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -544,7 +235,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web_mobile_10" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web_mobile_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -552,7 +243,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52575" />
+        <option name="DEBUG_PORT" value="58110" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -606,733 +297,121 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Database" />
-      <item itemvalue="JavaScript Debug.login.jsp" />
-<<<<<<< HEAD
-      <item itemvalue="Tomcat Server.Tomcat" />
-=======
-      <item itemvalue="Tomcat Server.tom" />
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Database" />
-        <item itemvalue="JavaScript Debug.login.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79b9d7c4-a086-4b09-9e5f-6f13304ad0a3" name="Default Changelist" comment="" />
-      <created>1573881112474</created>
+      <changelist id="8d81aee4-ed48-4dbd-b63d-c559c32ec023" name="Default Changelist" comment="" />
+      <created>1596634155816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573881112474</updated>
-      <workItem from="1573881115119" duration="18383000" />
-      <workItem from="1574083774039" duration="9877000" />
-      <workItem from="1574154724996" duration="80000" />
-      <workItem from="1574156463830" duration="4581000" />
-      <workItem from="1574176483651" duration="14011000" />
-      <workItem from="1574215151428" duration="8240000" />
-      <workItem from="1574242548022" duration="18788000" />
-      <workItem from="1574313738982" duration="2435000" />
-      <workItem from="1574349536141" duration="623000" />
-      <workItem from="1574356313850" duration="163000" />
-      <workItem from="1574577845693" duration="24149000" />
-      <workItem from="1574794428288" duration="1533000" />
-      <workItem from="1574796372358" duration="4567000" />
-      <workItem from="1574808363045" duration="28071000" />
-      <workItem from="1574910685785" duration="3970000" />
-      <workItem from="1574928736496" duration="1580000" />
-      <workItem from="1575005929382" duration="10219000" />
-      <workItem from="1575083649847" duration="25688000" />
-      <workItem from="1575181866103" duration="79000" />
-      <workItem from="1575182336849" duration="16133000" />
-      <workItem from="1575341864275" duration="24759000" />
-      <workItem from="1575515389968" duration="10591000" />
-      <workItem from="1575608439668" duration="13725000" />
-      <workItem from="1575687835732" duration="18483000" />
-      <workItem from="1575868544891" duration="11178000" />
-      <workItem from="1575896184676" duration="14316000" />
-      <workItem from="1575948377230" duration="16742000" />
-      <workItem from="1576120072889" duration="7239000" />
-      <workItem from="1576130598916" duration="9100000" />
-      <workItem from="1576157637901" duration="3322000" />
-      <workItem from="1576205504868" duration="9388000" />
-      <workItem from="1576218191638" duration="13991000" />
-      <workItem from="1576238035046" duration="13803000" />
-      <workItem from="1576257310823" duration="24000" />
-      <workItem from="1576288986554" duration="6724000" />
-      <workItem from="1576296206677" duration="15783000" />
-      <workItem from="1576317063318" duration="12041000" />
-      <workItem from="1576387798734" duration="41944000" />
-      <workItem from="1576461694243" duration="10498000" />
-      <workItem from="1576477837912" duration="14393000" />
-      <workItem from="1576499138249" duration="24806000" />
-      <workItem from="1576547774280" duration="9816000" />
-      <workItem from="1576563886539" duration="11622000" />
-      <workItem from="1576589118287" duration="13057000" />
-      <workItem from="1576636908636" duration="25256000" />
-      <workItem from="1576678424347" duration="17027000" />
-      <workItem from="1576716260434" duration="557000" />
-      <workItem from="1576718909665" duration="4879000" />
-      <workItem from="1576775076452" duration="2508000" />
-      <workItem from="1576917632346" duration="1498000" />
-      <workItem from="1576919158015" duration="1192000" />
-      <workItem from="1576920472741" duration="315000" />
-      <workItem from="1576920811523" duration="116000" />
-      <workItem from="1576920946557" duration="42000" />
-      <workItem from="1576921002551" duration="584000" />
-      <workItem from="1576921612620" duration="1044000" />
-      <workItem from="1577066722972" duration="11044000" />
-      <workItem from="1577082402402" duration="9595000" />
-      <workItem from="1577109760912" duration="5454000" />
-      <workItem from="1577251047994" duration="17256000" />
-      <workItem from="1577281752731" duration="119000" />
-      <workItem from="1577282004962" duration="11827000" />
-      <workItem from="1577323445772" duration="14739000" />
-      <workItem from="1577341148879" duration="3563000" />
-      <workItem from="1577344743720" duration="9609000" />
-      <workItem from="1577416072056" duration="677000" />
-      <workItem from="1577759528183" duration="9637000" />
-      <workItem from="1577774150291" duration="12353000" />
-      <workItem from="1577889167522" duration="6648000" />
-      <workItem from="1577935379767" duration="658000" />
-      <workItem from="1577940906754" duration="7401000" />
-      <workItem from="1578018559607" duration="28000" />
-      <workItem from="1578452058031" duration="6265000" />
-      <workItem from="1578461158295" duration="16776000" />
-      <workItem from="1578486158772" duration="18289000" />
-      <workItem from="1578534152737" duration="13113000" />
-      <workItem from="1578551642052" duration="11010000" />
-      <workItem from="1578566364348" duration="291000" />
-      <workItem from="1578567092721" duration="254000" />
-      <workItem from="1578574496332" duration="10766000" />
-      <workItem from="1578622913572" duration="17660000" />
-      <workItem from="1595050420029" duration="1215000" />
-      <workItem from="1595051698401" duration="1927000" />
-      <workItem from="1595475682848" duration="597000" />
-      <workItem from="1595476368013" duration="956000" />
-      <workItem from="1595510976819" duration="1985000" />
-      <workItem from="1595908707857" duration="1485000" />
-      <workItem from="1595913442161" duration="2555000" />
-      <workItem from="1595922305935" duration="1493000" />
-      <workItem from="1596181868660" duration="15821000" />
-      <workItem from="1596248421134" duration="5699000" />
-<<<<<<< HEAD
-      <workItem from="1596256480011" duration="13471000" />
-      <workItem from="1596287710877" duration="7175000" />
-      <workItem from="1596336531724" duration="9070000" />
-      <workItem from="1596444509729" duration="1552000" />
-      <workItem from="1596459500312" duration="314000" />
-      <workItem from="1596459950954" duration="4149000" />
-      <workItem from="1596509692755" duration="1409000" />
-      <workItem from="1596615101670" duration="892000" />
-      <workItem from="1596617238535" duration="1373000" />
-      <workItem from="1596619275642" duration="2273000" />
-      <workItem from="1596633850213" duration="185000" />
-=======
-      <workItem from="1596256480011" duration="13068000" />
-      <workItem from="1596370559411" duration="1205000" />
-      <workItem from="1596371824619" duration="4159000" />
-      <workItem from="1596446366936" duration="181000" />
-      <workItem from="1596446654442" duration="2312000" />
-      <workItem from="1596458496615" duration="3114000" />
-      <workItem from="1596527737066" duration="2995000" />
-      <workItem from="1596625029208" duration="2699000" />
-      <workItem from="1596631192320" duration="2286000" />
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
+      <updated>1596634155816</updated>
+      <workItem from="1596634164403" duration="1436000" />
     </task>
-    <task id="LOCAL-00001" summary="aaaaa">
-      <created>1595476414872</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1595476414872</updated>
-    </task>
-    <task id="LOCAL-00002" summary="aaaaa">
-      <created>1595476489067</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1595476489067</updated>
-    </task>
-    <task id="LOCAL-00003" summary="aaaaa">
-      <created>1595476902048</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1595476902048</updated>
-    </task>
-    <task id="LOCAL-00004" summary="a">
-      <created>1595477155934</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1595477155934</updated>
-    </task>
-    <task id="LOCAL-00005" summary="thêm sản phẩm vào giỏ hàng, show giỏ hàng">
-      <created>1595879194651</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1595879194651</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71065000" />
+    <option name="totallyTimeSpent" value="1436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.18305598" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Azure Explorer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.1969697" side_tool="true" weight="0.1785174" />
-      <window_info id="Web" order="7" sideWeight="0.1969697" side_tool="true" weight="0.1785174" />
-      <window_info id="Azure Explorer" order="8" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.096618354" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32850242" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Sequence2" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32850242" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" />
+      <window_info anchor="bottom" id="Azure Activity Log" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.048309177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.1336554" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28663447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25603864" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="10" weight="0.41706926" />
-      <window_info anchor="bottom" id="Sequence2" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.4830918" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32850242" />
-      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49924356" weight="0.5185185" />
-      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="18" />
-      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="19" />
-      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="20" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6876007" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="10" />
-      <window_info anchor="bottom" id="Sequence2" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.5185185" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32850242" />
-      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49924356" weight="0.5185185" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-<<<<<<< HEAD
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-=======
-            <State />
->>>>>>> 72ea5c8664110651fb579e644dcc69328c71f07c
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-    <MESSAGE value="admin" />
-    <MESSAGE value="aaaaa" />
-    <MESSAGE value="a" />
-    <MESSAGE value="thêm sản phẩm vào giỏ hàng, show giỏ hàng" />
-    <option name="LAST_COMMIT_MESSAGE" value="thêm sản phẩm vào giỏ hàng, show giỏ hàng" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="337" y="0" width="618" height="760" key="#Tomcat" timestamp="1596555565038">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="337" y="0" width="618" height="760" key="#Tomcat/0.0.1280.760@0.0.1280.760" timestamp="1596555565038" />
-    <state x="420" y="259" key="#Tomcat_Server" timestamp="1596555575993">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="420" y="259" key="#Tomcat_Server/0.0.1280.760@0.0.1280.760" timestamp="1596555575993" />
-    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596631918403">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1596631918403" />
-    <state x="371" y="20" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1596558638124">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="371" y="20" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.760@0.0.1280.760" timestamp="1596558638124" />
-    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1596558647914">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1596558647914" />
-    <state width="836" height="183" key="GridCell.Tab.0.bottom" timestamp="1596632712339">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596632712339" />
-    <state width="836" height="183" key="GridCell.Tab.0.center" timestamp="1596632712339">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1596632712339" />
-    <state width="836" height="183" key="GridCell.Tab.0.left" timestamp="1596632712338">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1596632712338" />
-    <state width="836" height="183" key="GridCell.Tab.0.right" timestamp="1596632712339">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1596632712339" />
-    <state width="836" height="183" key="GridCell.Tab.1.bottom" timestamp="1596632712341">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596632712341" />
-    <state width="836" height="183" key="GridCell.Tab.1.center" timestamp="1596632712340">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1596632712340" />
-    <state width="836" height="183" key="GridCell.Tab.1.left" timestamp="1596632712340">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1596632712340" />
-    <state width="836" height="183" key="GridCell.Tab.1.right" timestamp="1596632712340">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1596632712340" />
-    <state width="836" height="183" key="GridCell.Tab.2.bottom" timestamp="1596632712342">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596632712342" />
-    <state width="836" height="183" key="GridCell.Tab.2.center" timestamp="1596632712341">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1596632712341" />
-    <state width="836" height="183" key="GridCell.Tab.2.left" timestamp="1596632712341">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1596632712341" />
-    <state width="836" height="183" key="GridCell.Tab.2.right" timestamp="1596632712341">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="836" height="183" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1596632712341" />
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/cart-product/cart-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/c-product-9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/sunglass-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/l-product-14.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/three-column/product-three-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/three-column/product-three-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-tab-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/product/product-details/p-details-big-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/637008691896256121_SS-note-10-pl-glow-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/635961665195248508_taba6-den-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/635961665337125082_taba6-den-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/468-laptop.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/637030967816819060_ss-a50s-den-4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/phone/636172339622394948_apple-Iphone-6s-gold-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/backToTop.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/show_login.java" />
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/cart/Cart.java">
+    <entry file="file://$PROJECT_DIR$/web_mobile.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/headAllPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="124" column="88" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/cart/ListCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1400" column="19" selection-start-line="1400" selection-start-column="19" selection-end-line="1400" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/vn.edu.nlu.fit.controller.cart.delete">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>vn.edu.nlu.fit.controller.cart.delete</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.annotation.WebServlet</node>
-            <node x="" y="">vn.edu.nlu.fit.controller.cart.reduction</node>
-            <node x="" y="">javax.servlet.ServletConfig</node>
-            <node x="" y="">vn.edu.nlu.fit.controller.cart.delete</node>
-            <node x="" y="">javax.servlet.http.HttpServlet</node>
-            <node x="" y="">javax.servlet.Servlet</node>
-            <node x="" y="">javax.servlet.GenericServlet</node>
-            <node x="" y="">vn.edu.nlu.fit.controller.cart.show_cart</node>
-            <node x="" y="">vn.edu.nlu.fit.controller.cart.increase</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="264.0" y="144.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/show_cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/reduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107848">
-          <caret line="6344" column="30" selection-start-line="6344" selection-start-column="25" selection-end-line="6344" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="75" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/database/webmobile.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="41" column="44" lean-forward="true" selection-end-line="612" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="70" />
+        <state relative-caret-position="529">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="277">
+          <caret line="167" column="41" lean-forward="true" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="187" column="84" selection-start-line="187" selection-start-column="84" selection-end-line="187" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>web_mobile_war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>web_mobile</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
