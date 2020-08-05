@@ -27,15 +27,11 @@ public class delete extends HttpServlet {
         String id_product = request.getParameter("id_del");
         ListCart listCart = (ListCart) session.getAttribute("list_cart");
 
-        if (u != null) {
-            System.out.println("dklgjdkrgj");
-            for (Cart c : listCart.list_cart) {
-                if (c.getPro().getId_product().equals(id_product))
-                    Database.delCart(id_product, u.getUser_name());
-            }
-        }
         listCart.list_cart.removeIf(item -> item.getPro().getId_product().equals(id_product));
-            request.setAttribute("list_cart", listCart);
+        if (u != null) {
+            Database.delCart(id_product, u.getUser_name());
+        }
+//        session.setAttribute("list_cart", listCart);
            response.sendRedirect("show_cart");
 
     }

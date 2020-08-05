@@ -57,12 +57,14 @@
                                     <tbody >
                                     <%
                                         ListCart list_item = (ListCart) session.getAttribute("list_cart");
+                                        String s="";
                                         if (list_item.list_cart.isEmpty()) {
                                     %>
                                     <tr><p style="font-size: 25px" align="center">Chưa có sản phẩm</p></tr>
                                     <%
                                     } else {
                                         for (Cart item : list_item.list_cart) {
+                                            s+=item.getPro().getProduct_name()+", ";
                                     %>
                                         <tr>
                                             <th scope="row">
@@ -133,31 +135,25 @@
                             <div class="cart_t_list">
                                 <div class="media">
                                     <div class="d-flex">
-                                        <h5>Subtotal</h5>
+                                        <h5>code:</h5>
                                     </div>
                                     <div class="media-body">
-                                        <h6>$</h6>
+                                        <h6>1233333</h6>
                                     </div>
                                 </div>
                                 <div class="media">
                                     <div class="d-flex">
-                                        <h5>Shipping</h5>
+                                        <h5>Products:</h5>
                                     </div>
-                                    <div class="media-body">
-                                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model tex</p>
+                                    <div class="media-body" style="height: 20vh; overflow: auto">
+                                        <p><%=s.substring(0,s.length()-2)%></p>
                                     </div>
                                 </div>
                                 <div class="media">
                                     <div class="d-flex">
                                         
                                     </div>
-                                    <div class="media-body">
-                                        <select class="selectpicker">
-                                            <option>Calculate Shipping</option>
-                                            <option>Calculate Shipping</option>
-                                            <option>Calculate Shipping</option>
-                                        </select>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="total_amount row m0 row_disable">
@@ -169,7 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" value="submit" class="btn subs_btn form-control">Proceed to checkout</button>
+                        <button type="submit" value="submit" class="btn subs_btn form-control">Buy</button>
                     </div>
                 </div>
             </div>

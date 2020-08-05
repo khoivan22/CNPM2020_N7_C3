@@ -32,8 +32,10 @@ public class reduction extends HttpServlet {
                 if(u!=null){
                     Database.setSLC(id_product,u.getUser_name(),item.getTotal());
                 }
+                break;
         }
         }
+
         response.sendRedirect(Util.fullPath("show_cart"));
     }
 }

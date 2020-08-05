@@ -130,10 +130,10 @@
                         </div>
                         <div class="fillter_home_sidebar">
                             <ul class="portfolio_filter">
-                                <li class="active" data-filter="*"><a href="#">men's</a></li>
-                                <li data-filter=".woman"><a href="#">Woman</a></li>
-                                <li data-filter=".shoes"><a href="#">Shoes</a></li>
-                                <li data-filter=".bags"><a href="#">Bags</a></li>
+                                <li class="active" data-filter="*"><a href="#">Samsung</a></li>
+                                <li data-filter=".woman"><a href="#">Iphone</a></li>
+                                <li data-filter=".shoes"><a href="#">Xiaomi</a></li>
+                                <li data-filter=".bags"><a href="#">Huwei</a></li>
                             </ul>
 
                             <!----------------------Product------------------------>
@@ -141,7 +141,7 @@
                                 <%
                                     ResultSet rs = (ResultSet) request.getAttribute("resultSet");
                                     rs.beforeFirst();
-                                    for (int i = 0; i < 4; i++) {
+                                    for (int i = 0; i < 8; i++) {
                                 %>
                                 <div class="item woman shoes">
                                     <%

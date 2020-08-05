@@ -13,27 +13,13 @@
                 <div class="float-md-left">
                     <div class="top_header_left">
                         <div class="selector">
-                            <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
-                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
-                                <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
-                                <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
-                            </select>
+
                         </div>
-                        <select class="selectpicker usd_select">
-                            <option>USD</option>
-                            <option>$</option>
-                            <option>$</option>
-                        </select>
+
                     </div>
                 </div>
                 <div class="float-md-right">
-                    <ul class="account_list">
-                        <li><a href="login.jsp">My Account</a></li>
-                        <li><a href="#">Wish List (0)</a></li>
-                        <li><a href="#">Shopping Cart</a></li>
-                        <li><a href="#">Checkout</a></li>
-                    </ul>
+
                 </div>
             </div>
         </div>

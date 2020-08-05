@@ -35,6 +35,9 @@
       </root>
     </artifact>
   </component>
+  <component name="AzureSettings">
+    <option name="appInsights" value="rO0ABXVyAEtbTGNvbS5taWNyb3NvZnQuYXBwbGljYXRpb25pbnNpZ2h0cy5wcmVmZXJlbmNlLkFwcGxpY2F0aW9uSW5zaWdodHNSZXNvdXJjZTvCzxEP0C2HbAIAAHhwAAAAAA==" />
+  </component>
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="webmobile@localhost" uuid="1f345c2a-3d7b-403b-9da1-3c1fca6bddc0">
       <driver-ref>mysql</driver-ref>
