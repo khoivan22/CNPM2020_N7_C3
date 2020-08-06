@@ -24,12 +24,16 @@ public class add extends HttpServlet {
         try {
             HttpSession session = request.getSession();
 
+            //lay parameter tu  trang home.jsp
             String id_product = request.getParameter("id");
             String btn_buy_now = request.getParameter("btn");
             Cart item = new Cart(Database.getProduct(id_product), 1);
 
+            //lay list cart tu sesstion
             ListCart listCArt = (ListCart) session.getAttribute("list_cart");
+            //lay user t session
             User u = (User) session.getAttribute("user");
+            //neu listcart null thi tao moi
             if (listCArt == null)
                 listCArt = new ListCart();
             if (!listCArt.list_cart.isEmpty()) {

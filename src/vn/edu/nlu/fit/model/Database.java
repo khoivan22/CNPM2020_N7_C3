@@ -4,6 +4,8 @@ import vn.edu.nlu.fit.model.cart.Cart;
 import vn.edu.nlu.fit.model.cart.ListCart;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Database {
     private static Connection con;
@@ -166,6 +168,4 @@ public class Database {
         }
         return pro;
     }
-
-
 }

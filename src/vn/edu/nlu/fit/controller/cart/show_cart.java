@@ -18,10 +18,12 @@ public class show_cart extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
+        //lay listCart tu session
         ListCart listCart = (ListCart) session.getAttribute("list_cart");
         if (listCart == null)
             listCart = new ListCart();
         session.setAttribute("list_cart", listCart);
+        //gui trang cart.jsp attribute liscart
         request.getRequestDispatcher("Cart.jsp").forward(request, response);
     }
 }

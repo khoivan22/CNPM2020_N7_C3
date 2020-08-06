@@ -130,10 +130,10 @@
                         </div>
                         <div class="fillter_home_sidebar">
                             <ul class="portfolio_filter">
-                                <li class="active" data-filter="*"><a href="#">Samsung</a></li>
-                                <li data-filter=".woman"><a href="#">Iphone</a></li>
-                                <li data-filter=".shoes"><a href="#">Xiaomi</a></li>
-                                <li data-filter=".bags"><a href="#">Huwei</a></li>
+<%--                                <li class="active" data-filter="*"><a href="#">Samsung</a></li>--%>
+<%--                                <li data-filter=".woman"><a href="#">Iphone</a></li>--%>
+<%--                                <li data-filter=".shoes"><a href="#">Xiaomi</a></li>--%>
+<%--                                <li data-filter=".bags"><a href="#">Huwei</a></li>--%>
                             </ul>
 
                             <!----------------------Product------------------------>

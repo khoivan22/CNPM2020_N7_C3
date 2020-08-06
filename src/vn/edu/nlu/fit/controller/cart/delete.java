@@ -22,16 +22,22 @@ public class delete extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
+        //lay user tu session
         User u = (User) session.getAttribute("user");
 
+        //lay parameter tu  trang cart.jsp
         String id_product = request.getParameter("id_del");
+        //lay listCart tu session
         ListCart listCart = (ListCart) session.getAttribute("list_cart");
 
+        //xoa cart co id==id_product
         listCart.list_cart.removeIf(item -> item.getPro().getId_product().equals(id_product));
+        //neu da dang nhap thi xoa cart trong database
         if (u != null) {
             Database.delCart(id_product, u.getUser_name());
         }
 //        session.setAttribute("list_cart", listCart);
+        //ve lai trang show_cart
            response.sendRedirect("show_cart");
 
     }

@@ -21,21 +21,26 @@ public class reduction extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //lay parameter tu  trang cart.jsp
         String id_product = request.getParameter("id_product");
 
         HttpSession session = request.getSession();
+        //lay user tu session
         User u = (User) session.getAttribute("user");
+        //lay listCart tu session
         ListCart listCart = (ListCart) session.getAttribute("list_cart");
+        //giam so luong cua cart co id==id_product len 1
         for (Cart item : listCart.list_cart) {
             if (item.getPro().getId_product().equals(id_product) && item.getTotal() > 1) {
                 item.setTotal(item.getTotal() - 1);
-                if(u!=null){
-                    Database.setSLC(id_product,u.getUser_name(),item.getTotal());
+                //neu da dang nhap thi xoa cart trong database
+                if (u != null) {
+                    Database.setSLC(id_product, u.getUser_name(), item.getTotal());
                 }
                 break;
+            }
         }
-        }
-
+//ve lai trang show_cart
         response.sendRedirect(Util.fullPath("show_cart"));
     }
 }

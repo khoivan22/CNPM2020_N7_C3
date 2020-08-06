@@ -6,11 +6,14 @@
     <title>Chi tiết sản phẩm | Saitama</title>
     <link rel="stylesheet" href="<%=Util.fullPath("css/detail_product.css")%>">
     <%@include file="headAllPage.jsp" %>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendors/line-icon/css/simple-line-icons.css" rel="stylesheet">
+    <link href="vendors/elegant-icon/style.css" rel="stylesheet">
 </head>
 <body>
-<%@include file="backToTop.jsp" %>
+
 <%--=================   HEADER   ==============--%>
-<%@include file="header.jsp" %>
+<%@include file="header.jsp"%>
 <%-----------------------------------------------%>
 
 <%--=================   BODY    ===============--%>
@@ -282,16 +285,7 @@
 
                     </div>
                     <span><%=comment.getString(4)%></span>
-                    <%
-                        if (user != null && user.getUser_name().equals(comment.getString(1))) {
-                    %>
-                    <a id="del_comment" class=" float-right" style="color: #000 !important;">
-                        Xóa
-                        <input type="hidden" id="id_comment" value="<%=comment.getInt(6)%>">
-                    </a>
-                    <%
-                        }
-                    %>
+                    
 
                 </div>
                 <%
@@ -308,11 +302,7 @@
 <%@include file="footer.jsp" %>
 <%-----------------------------------------------%>
 
-<%--============    PAY     ===================--%>
-
-<%-----------------------------------------------%>
-
-<%--=========   SLIDE IMG PRODUCT    ==========--%>
+<%@include file="backToTop.jsp" %>
 <style type="text/css">
     .carousel-indicators .carousel-indicators img {
         max-width: 100px;
@@ -375,36 +365,7 @@
                 })
         });
     });
-    /*Delete comment*/
-    $(document).ready(function () {
-        $("#del_comment").click(function () {
-            swal.fire({
-                title: 'Xóa bình luận.',
-                showCancelButton: true,
-                confirmButtonText: 'Xóa',
-                cancelButtonText: 'Hủy',
-                confirmButtonColor: '#ff6700',
-                preConfirm: () => {
-                    var id_comment = $('#id_comment').val();
-                    var id = $('#id').val();
-                    $.ajax({
-                        url: "<%=Util.fullPath("del_comment")%>",
-                        type: "get",
-                        data: {
-                            id_comment: id_comment,
-                            id: id
-                        },
-                        success: function () {
-                            location.reload();
-                        },
-                        error: function (error) {
-                            alert(error);
-                        }
-                    });
-                }
-            });
-        })
-    });
+
 </script>
 </body>
 </html>
