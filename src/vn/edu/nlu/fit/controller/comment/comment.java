@@ -22,14 +22,18 @@ public class comment extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //lay patameter tu trang detail product
         String content = request.getParameter("comment");
         String idProduct = request.getParameter("id");
         int evaluate = 0;
 
 
         HttpSession session = request.getSession();
+        //lay attribute tu session
         User user = (User) session.getAttribute("user");
+        //kiem tra dan dang nhap hay chua va co binh luan khong
         if (content != null && user != null) {
+            //lay thong tin comment tu database
             String insertComment = "INSERT INTO `webmobile`.`comment`(`USER_NAME`, `ID_PRODUCT`, `CONTENT`, `DATE_COMMENT`,`EVALUATE`) VALUES (?, ?, ?, NOW(),?)";
             String sql = "SELECT ID_PRODUCT, USER_NAME, EVALUATE FROM `comment` where ID_PRODUCT=? and USER_NAME=? and EVALUATE!=0";
 
@@ -51,6 +55,7 @@ public class comment extends HttpServlet {
                 ps.setInt(4, evaluate);
                 ps.executeUpdate();
 
+                //laay thong tin danh gia tu database
                 String sql1 = "SELECT AVG(`EVALUATE`)\n" +
                         "FROM `comment`\n" +
                         "WHERE `ID_PRODUCT`= ? and EVALUATE!=0;";
@@ -58,6 +63,7 @@ public class comment extends HttpServlet {
                 ps1.setString(1, idProduct);
                 rs = ps1.executeQuery();
                 rs.next();
+                //update so sao cua san pham dc danh gia
                 String sql2 = "update product set STAR_MEDIUM= ? where `ID_PRODUCT`= ? ;";
                 PreparedStatement ps2 = Database.getPreparedStatement(sql2);
                 System.out.println(rs.getInt(1));

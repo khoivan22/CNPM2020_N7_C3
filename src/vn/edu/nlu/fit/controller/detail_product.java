@@ -68,24 +68,8 @@ public class detail_product extends HttpServlet {
                 request.setAttribute("check", comment.getRow());
             } else
                 request.setAttribute("check", 0);
-            /*San pham tuong tu*/
-            String same = "SELECT product.PRODUCT_NAME,product.PRICE,product.IMG,supplier.NAME_SUPPLIER, items.ID_ITEMS, product.ID_PRODUCT, product.DISCOUNT, product.STAR_MEDIUM\n" +
-                    "FROM product,items,supplier\n" +
-                    "WHERE \n" +
-                    "product.ID_ITEMS=items.ID_ITEMS \n" +
-                    "AND \n" +
-                    "product.ID_SUPPLIER=supplier.ID_SUPPLIER\n" +
-                    "AND\n" +
-                    "product.ID_SUPPLIER =(SELECT product.ID_SUPPLIER FROM product WHERE product.ID_PRODUCT = ?) " +
-                    "AND \n" +
-                    "product.ID_ITEMS = (SELECT product.ID_ITEMS FROM product WHERE product.ID_PRODUCT = ?) "
-                    + " ORDER BY RAND ( );";
-            PreparedStatement stSame = Database.getPreparedStatement(same);
-            stSame.setString(1, detail);
-            stSame.setString(2, detail);
 
-            ResultSet like = stSame.executeQuery();
-            request.setAttribute("like", like);
+
 
             request.getRequestDispatcher("detail_product.jsp").forward(request, response);
 

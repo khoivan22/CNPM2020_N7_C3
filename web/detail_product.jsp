@@ -100,14 +100,12 @@
                     } else {
 
                         for (int i = 0; i < detail.getInt(8); i++) {
-                            System.out.println("");
                     %>
                     <i class="fa fa-star star" style="color:darkorange"></i>
 
                     <%
                         }
                         for (int i = 0; i < 5 - detail.getInt(8); i++) {
-                            System.out.println("b");
                     %>
 
                     <i class="fa fa-star star" style="color: #9fcdff"></i>
@@ -285,7 +283,7 @@
 
                     </div>
                     <span><%=comment.getString(4)%></span>
-                    
+
 
                 </div>
                 <%

@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web_mobile_war" />
+      <artifact name="web_mobile" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d81aee4-ed48-4dbd-b63d-c559c32ec023" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/cart/add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/detail_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/detail_product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/cart/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/cart/add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/reduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/reduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/show_cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/show_cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/del_comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/detail_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail_product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_mobile.iws" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iws" afterDir="false" />
     </list>
     <ignored path="E:\mobile_app\.shelf/" />
@@ -37,16 +23,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="65" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="-368">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -54,26 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="935">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="287" column="20" selection-start-line="287" selection-start-column="20" selection-end-line="287" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,8 +57,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="884">
+              <caret line="65" column="56" lean-forward="true" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2975">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -90,17 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="337">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -123,15 +117,18 @@
         <option value="$PROJECT_DIR$/web/Cart.jsp" />
         <option value="$PROJECT_DIR$/web/header.jsp" />
         <option value="$PROJECT_DIR$/web/home.jsp" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/delete.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/increase.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/reduction.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/show_cart.java" />
-        <option value="$PROJECT_DIR$/web/detail_product.jsp" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" />
+        <option value="$PROJECT_DIR$/web/detail_product.jsp" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" />
       </list>
     </option>
   </component>
@@ -334,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1596634155816</updated>
       <workItem from="1596634164403" duration="6571000" />
-      <workItem from="1596674073747" duration="580000" />
+      <workItem from="1596674073747" duration="4454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7151000" />
+    <option name="totallyTimeSpent" value="11025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -356,7 +353,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31561998" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31561998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,20 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="65" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/show_cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -537,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -551,38 +527,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
+        <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="884">
+          <caret line="65" column="56" lean-forward="true" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="935">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="287" column="20" selection-start-line="287" selection-start-column="20" selection-end-line="287" selection-end-column="20" />
+        <state relative-caret-position="-2975">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>

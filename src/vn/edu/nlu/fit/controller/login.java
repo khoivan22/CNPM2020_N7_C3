@@ -18,12 +18,14 @@ public class login extends javax.servlet.http.HttpServlet {
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain");
-
+//lay parametter tu trang login.jsp
         String user = request.getParameter("username");
         String pass = request.getParameter("password");
         HttpSession session = request.getSession();
         try {
+
             User u = Database.getUser(user);
+            //kiem tra dang nhap
             boolean validate = Database.checkLogin(user, pass);
             if (u != null && validate) {
                 session.setAttribute("user", u);
@@ -34,12 +36,15 @@ public class login extends javax.servlet.http.HttpServlet {
                     }
                     listCart.list_cart.clear();
                 }
+                //add user vao session
                 if (listCart == null) listCart = new ListCart();
                 listCart.list_cart.addAll(Database.getListcart().list_cart);
                 session.setAttribute("list_cart", listCart);
                 session.setAttribute("user", u);
+                //tro ve tran home
                 response.sendRedirect(Util.fullPath("home"));
             } else {
+                //tro ve trang login
                 response.sendRedirect(Util.fullPath("login.jsp"));
             }
 
