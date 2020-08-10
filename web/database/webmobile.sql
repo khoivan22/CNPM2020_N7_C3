@@ -603,8 +603,8 @@ CREATE TABLE `user`  (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('', '', '', '', '', '', NULL);
-INSERT INTO `user` VALUES ('admin', '42443g4A9c79c7c864@@6b2f6b922he4', 'admin', 'admin@gmail.com', '0981941659', 'ad', NULL);
-INSERT INTO `user` VALUES ('congkhoi', 'g22bfe5@6@dc7Abcdg68f278g31g9@5f', 'Cong Khoi', 'ck@gmail.com', '123456789', 'kh', NULL);
+INSERT INTO `user` VALUES ('admin', 'congkhọi123', 'admin', 'admin@gmail.com', '0981941659', 'ad', NULL);
+INSERT INTO `user` VALUES ('congkhoi', '12345678', 'Cong Khoi', 'ck@gmail.com', '123456789', 'kh', NULL);
 INSERT INTO `user` VALUES ('hoanghuy', 'g22bfe5@6@dc7Abcdg68f278g31g9@5f', 'Hoang Huy', 'hh@gmail.com', '123456789', 'kh', NULL);
 INSERT INTO `user` VALUES ('hoanglong', '314dd@74ce7@296d@75c29363e445d81', 'Hoang Long', 'hoangvanlong1702@gmail.com', '0123456789', 'kh', NULL);
 INSERT INTO `user` VALUES ('khoi', '314dd@74ce7@296d@75c29363e445d81', 'cong khoi', '1232@st', '1234567', 'kh', NULL);

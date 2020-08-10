@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d81aee4-ed48-4dbd-b63d-c559c32ec023" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile_war/web_mobile_war.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/controller/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/WEB-INF/classes/vn/edu/nlu/fit/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_mobile/database/webmobile.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_mobile/database/webmobile.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/controller/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web_mobile/vn/edu/nlu/fit/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/database/webmobile.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/database/webmobile.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_mobile.iws" beforeDir="false" afterPath="$PROJECT_DIR$/web_mobile.iws" afterDir="false" />
     </list>
     <ignored path="E:\mobile_app\.shelf/" />
@@ -27,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="203">
+              <caret line="139" column="210" selection-start-line="139" selection-start-column="206" selection-end-line="139" selection-end-column="210" />
             </state>
           </provider>
         </entry>
@@ -39,26 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="65" column="56" lean-forward="true" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+            <state relative-caret-position="952">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -66,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -75,17 +62,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2975">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="3383">
+              <caret line="199" column="76" selection-start-line="199" selection-start-column="66" selection-end-line="199" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="117300">
+              <caret line="6900" selection-start-line="6900" selection-end-line="6900" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login/login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="969">
               <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
@@ -101,10 +97,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mua</find>
       <find>|</find>
+      <find>evaluate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/Cart.jsp" />
         <option value="$PROJECT_DIR$/web/header.jsp" />
         <option value="$PROJECT_DIR$/web/home.jsp" />
@@ -125,10 +128,14 @@
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java" />
-        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java" />
         <option value="$PROJECT_DIR$/web/detail_product.jsp" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java" />
         <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login/Login_Facebook.java" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -165,24 +172,6 @@
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="web_mobile_war" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,14 +193,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fit" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fit" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
@@ -222,8 +204,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,18 +313,21 @@
       <option name="presentableId" value="Default" />
       <updated>1596634155816</updated>
       <workItem from="1596634164403" duration="6571000" />
-      <workItem from="1596674073747" duration="4454000" />
+      <workItem from="1596674073747" duration="4540000" />
+      <workItem from="1596682698277" duration="1877000" />
+      <workItem from="1596852916787" duration="806000" />
+      <workItem from="1597025654594" duration="9378000" />
+      <workItem from="1597063232672" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11025000" />
+    <option name="totallyTimeSpent" value="23703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8872902" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -350,10 +335,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Azure Explorer" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.112709835" side_tool="true" visible="true" weight="0.26172465" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31561998" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17391305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,7 +354,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info anchor="bottom" id="Terminal" order="18" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="18" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Messages" order="19" weight="0.32850242" />
       <window_info anchor="bottom" id="Azure Activity Log" order="20" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -520,27 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/dao/CommentDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/cart/add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -548,45 +513,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java">
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login/Login_Facebook.java" />
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Comment.java" />
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="36" column="106" lean-forward="true" selection-start-line="36" selection-start-column="106" selection-end-line="36" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/comment/comment.java">
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="65" column="56" lean-forward="true" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+        <state relative-caret-position="203">
+          <caret line="139" column="210" selection-start-line="139" selection-start-column="206" selection-end-line="139" selection-end-column="210" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/detail_product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="952">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/detail_product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2975">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="3383">
+          <caret line="199" column="76" selection-start-line="199" selection-start-column="66" selection-end-line="199" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117300">
+          <caret line="6900" selection-start-line="6900" selection-end-line="6900" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/model/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="969">
           <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/edu/nlu/fit/controller/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>

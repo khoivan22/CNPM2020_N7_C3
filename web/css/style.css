@@ -6885,6 +6885,25 @@ i:before {
     border: none;
 }
 
+.star_detail {
+    color: #9fcdff;
+    font-size: 25px;
+}
+
+.star {
+    color: #9fcdff;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating > i:hover ~ i:before,
+.rating > i:hover:before {
+    color: darkorange;
+    cursor: pointer;
+}
 /* End Parallax Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */

@@ -1,4 +1,4 @@
-package vn.edu.nlu.fit.controller;
+package vn.edu.nlu.fit.controller.login;
 
 
 import vn.edu.nlu.fit.model.*;
@@ -25,7 +25,6 @@ public class login extends javax.servlet.http.HttpServlet {
         try {
 
             User u = Database.getUser(user);
-            //kiem tra dang nhap
             boolean validate = Database.checkLogin(user, pass);
             if (u != null && validate) {
                 session.setAttribute("user", u);
@@ -41,10 +40,8 @@ public class login extends javax.servlet.http.HttpServlet {
                 listCart.list_cart.addAll(Database.getListcart().list_cart);
                 session.setAttribute("list_cart", listCart);
                 session.setAttribute("user", u);
-                //tro ve tran home
                 response.sendRedirect(Util.fullPath("home"));
-            } else {
-                //tro ve trang login
+            }  else {
                 response.sendRedirect(Util.fullPath("login.jsp"));
             }
 
