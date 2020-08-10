@@ -146,7 +146,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -194,6 +194,13 @@
               <item name="fit" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fit" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_mobile" type="b2602c69:ProjectViewProjectNode" />
@@ -317,12 +324,12 @@
       <workItem from="1596682698277" duration="1877000" />
       <workItem from="1596852916787" duration="806000" />
       <workItem from="1597025654594" duration="9378000" />
-      <workItem from="1597063232672" duration="531000" />
+      <workItem from="1597063232672" duration="642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23703000" />
+    <option name="totallyTimeSpent" value="23814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
