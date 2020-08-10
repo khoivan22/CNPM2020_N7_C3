@@ -41,7 +41,7 @@ public class login extends javax.servlet.http.HttpServlet {
                 listCart.list_cart.addAll(Database.getListcart().list_cart);
                 session.setAttribute("list_cart", listCart);
                 session.setAttribute("user", u);
-                //tro ve tran home
+                //tro ve trang home
                 response.sendRedirect(Util.fullPath("home"));
             } else {
                 //tro ve trang login

@@ -185,7 +185,7 @@
       <module fileurl="file://$PROJECT_DIR$/web_mobile.iml" filepath="$PROJECT_DIR$/web_mobile.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SqlDialectMappings">
@@ -211,6 +211,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+      <schema-mapping />
     </data-source>
   </component>
   <component name="libraryTable">

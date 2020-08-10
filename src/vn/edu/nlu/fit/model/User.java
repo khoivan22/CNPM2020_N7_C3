@@ -22,8 +22,7 @@ public class User {
         this.phone = phone;
         this.privileges = privileges;
     }
-
-    public String getUser_name() {
+     public String getUser_name() {
         return user_name;
     }
 

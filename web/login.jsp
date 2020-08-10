@@ -136,8 +136,11 @@
     }
 
     function checkLogin() {
+        FB.getLoginStatus(function (response) {
+            statusChangeCallback(response);
+        });
         FB.api('/me', {fields: ' name, email'}, function (response) {
-            window.location = 'http://graph.facebook.com/oauth/authorize?client_id=735019480627374&scope=public_profile,email,user_likes&redirect_uri=http://localhost:8080/web_mobile/home?name=' + response.name + '&email=' + response.email + '&id=' + response.id;
+            window.location.href = 'loginfacebook?name=' + response.name + '&email=' + response.email + '&id=' + response.id;
         });
     }
 

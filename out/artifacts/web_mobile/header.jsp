@@ -1,5 +1,6 @@
 <%@ page import="vn.edu.nlu.fit.model.Util" %>
-<%@ page import="vn.edu.nlu.fit.model.User" %><%--
+<%@ page import="vn.edu.nlu.fit.model.User" %>
+<%@ page import="vn.edu.nlu.fit.model.UserFacebook" %><%--
   Created by IntelliJ IDEA.
   User: vkhoi
   Date: 7/18/2020
@@ -73,9 +74,27 @@
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
                     <ul class="navbar-nav justify-content-end">
+                        <%
+                            User u = (User) session.getAttribute("user");
+                            UserFacebook uf = (UserFacebook) session.getAttribute("UserFacebook");
+                            if (u == null && uf == null) {
+
+
+                        %>
                         <li class="search_icon"><a href="#"><i style="font-size: 14px"> Register</i></a></li>
-                         <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i
+                        <li class="user_icon"><a href="<%=Util.fullPath("login.jsp")%>"><i
                                 style="font-size: 14px">Login</i></a></li>
+                        <%
+                        } else {
+
+                        %>
+                        <li><a href="#"><i class="fa fa-user" style="font-size: 30px; align-content: center"></i></a>
+                        </li>
+                        <li class="user_icon"><a href="<%=Util.fullPath("logout")%>"><i
+                                style="font-size: 14px">Logout</i></a></li>
+                        <%
+                            }
+                        %>
                         <li class="cart_cart"><a href="<%=Util.fullPath("show_cart")%>"><i
                                 class="icon-handbag icons"></i></a></li>
                     </ul>
